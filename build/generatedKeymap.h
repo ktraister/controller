@@ -152,114 +152,115 @@ const Capability CapabilitiesList[] = {
 
 // Result Macro Guides
 Guide_RM( 0 ) = { 1, 7, 184, 0, 0 }; // (HID(ConsCode)"CONSUMER_EJECT")
-Guide_RM( 1 ) = { 1, 7, 226, 0, 0 }; // (HID(ConsCode)"CONSUMER_MUTE")
-Guide_RM( 2 ) = { 1, 7, 233, 0, 0 }; // (HID(ConsCode)"CONSUMER_VOLUME_UP")
-Guide_RM( 3 ) = { 1, 7, 234, 0, 0 }; // (HID(ConsCode)"CONSUMER_VOLUME_DOWN")
-Guide_RM( 4 ) = { 1, 14, KEY_A, 0 }; // (HID(USBCode)"KEY_A")
-Guide_RM( 5 ) = { 1, 14, KEY_B, 0 }; // (HID(USBCode)"KEY_B")
-Guide_RM( 6 ) = { 1, 14, KEY_C, 0 }; // (HID(USBCode)"KEY_C")
-Guide_RM( 7 ) = { 1, 14, KEY_D, 0 }; // (HID(USBCode)"KEY_D")
-Guide_RM( 8 ) = { 1, 14, KEY_E, 0 }; // (HID(USBCode)"KEY_E")
-Guide_RM( 9 ) = { 1, 14, KEY_F, 0 }; // (HID(USBCode)"KEY_F")
-Guide_RM( 10 ) = { 1, 14, KEY_G, 0 }; // (HID(USBCode)"KEY_G")
-Guide_RM( 11 ) = { 1, 14, KEY_H, 0 }; // (HID(USBCode)"KEY_H")
-Guide_RM( 12 ) = { 1, 14, KEY_I, 0 }; // (HID(USBCode)"KEY_I")
-Guide_RM( 13 ) = { 1, 14, KEY_J, 0 }; // (HID(USBCode)"KEY_J")
-Guide_RM( 14 ) = { 1, 14, KEY_K, 0 }; // (HID(USBCode)"KEY_K")
-Guide_RM( 15 ) = { 1, 14, KEY_L, 0 }; // (HID(USBCode)"KEY_L")
-Guide_RM( 16 ) = { 1, 14, KEY_M, 0 }; // (HID(USBCode)"KEY_M")
-Guide_RM( 17 ) = { 1, 14, KEY_N, 0 }; // (HID(USBCode)"KEY_N")
-Guide_RM( 18 ) = { 1, 14, KEY_O, 0 }; // (HID(USBCode)"KEY_O")
-Guide_RM( 19 ) = { 1, 14, KEY_P, 0 }; // (HID(USBCode)"KEY_P")
-Guide_RM( 20 ) = { 1, 14, KEY_Q, 0 }; // (HID(USBCode)"KEY_Q")
-Guide_RM( 21 ) = { 1, 14, KEY_R, 0 }; // (HID(USBCode)"KEY_R")
-Guide_RM( 22 ) = { 1, 14, KEY_S, 0 }; // (HID(USBCode)"KEY_S")
-Guide_RM( 23 ) = { 1, 14, KEY_T, 0 }; // (HID(USBCode)"KEY_T")
-Guide_RM( 24 ) = { 1, 14, KEY_U, 0 }; // (HID(USBCode)"KEY_U")
-Guide_RM( 25 ) = { 1, 14, KEY_V, 0 }; // (HID(USBCode)"KEY_V")
-Guide_RM( 26 ) = { 1, 14, KEY_W, 0 }; // (HID(USBCode)"KEY_W")
-Guide_RM( 27 ) = { 1, 14, KEY_X, 0 }; // (HID(USBCode)"KEY_X")
-Guide_RM( 28 ) = { 1, 14, KEY_Y, 0 }; // (HID(USBCode)"KEY_Y")
-Guide_RM( 29 ) = { 1, 14, KEY_Z, 0 }; // (HID(USBCode)"KEY_Z")
-Guide_RM( 30 ) = { 1, 14, KEY_1, 0 }; // (HID(USBCode)"KEY_1")
-Guide_RM( 31 ) = { 1, 14, KEY_2, 0 }; // (HID(USBCode)"KEY_2")
-Guide_RM( 32 ) = { 1, 14, KEY_3, 0 }; // (HID(USBCode)"KEY_3")
-Guide_RM( 33 ) = { 1, 14, KEY_4, 0 }; // (HID(USBCode)"KEY_4")
-Guide_RM( 34 ) = { 1, 14, KEY_5, 0 }; // (HID(USBCode)"KEY_5")
-Guide_RM( 35 ) = { 1, 14, KEY_6, 0 }; // (HID(USBCode)"KEY_6")
-Guide_RM( 36 ) = { 1, 14, KEY_7, 0 }; // (HID(USBCode)"KEY_7")
-Guide_RM( 37 ) = { 1, 14, KEY_8, 0 }; // (HID(USBCode)"KEY_8")
-Guide_RM( 38 ) = { 1, 14, KEY_9, 0 }; // (HID(USBCode)"KEY_9")
-Guide_RM( 39 ) = { 1, 14, KEY_0, 0 }; // (HID(USBCode)"KEY_0")
-Guide_RM( 40 ) = { 1, 14, KEY_ENTER, 0 }; // (HID(USBCode)"KEY_ENTER")
-Guide_RM( 41 ) = { 1, 14, KEY_ESC, 0 }; // (HID(USBCode)"KEY_ESC")
-Guide_RM( 42 ) = { 1, 14, KEY_BACKSPACE, 0 }; // (HID(USBCode)"KEY_BACKSPACE")
-Guide_RM( 43 ) = { 1, 14, KEY_TAB, 0 }; // (HID(USBCode)"KEY_TAB")
-Guide_RM( 44 ) = { 1, 14, KEY_SPACE, 0 }; // (HID(USBCode)"KEY_SPACE")
-Guide_RM( 45 ) = { 1, 14, KEY_MINUS, 0 }; // (HID(USBCode)"KEY_MINUS")
-Guide_RM( 46 ) = { 1, 14, KEY_EQUAL, 0 }; // (HID(USBCode)"KEY_EQUAL")
-Guide_RM( 47 ) = { 1, 14, KEY_LEFT_BRACKET, 0 }; // (HID(USBCode)"KEY_LEFT_BRACKET")
-Guide_RM( 48 ) = { 1, 14, KEY_RIGHT_BRACKET, 0 }; // (HID(USBCode)"KEY_RIGHT_BRACKET")
-Guide_RM( 49 ) = { 1, 14, KEY_BACKSLASH, 0 }; // (HID(USBCode)"KEY_BACKSLASH")
-Guide_RM( 50 ) = { 1, 14, KEY_SEMICOLON, 0 }; // (HID(USBCode)"KEY_SEMICOLON")
-Guide_RM( 51 ) = { 1, 14, KEY_QUOTE, 0 }; // (HID(USBCode)"KEY_QUOTE")
-Guide_RM( 52 ) = { 1, 14, KEY_BACKTICK, 0 }; // (HID(USBCode)"KEY_BACKTICK")
-Guide_RM( 53 ) = { 1, 14, KEY_COMMA, 0 }; // (HID(USBCode)"KEY_COMMA")
-Guide_RM( 54 ) = { 1, 14, KEY_PERIOD, 0 }; // (HID(USBCode)"KEY_PERIOD")
-Guide_RM( 55 ) = { 1, 14, KEY_SLASH, 0 }; // (HID(USBCode)"KEY_SLASH")
-Guide_RM( 56 ) = { 1, 14, KEY_CAPS_LOCK, 0 }; // (HID(USBCode)"KEY_CAPS_LOCK")
-Guide_RM( 57 ) = { 1, 14, KEY_F1, 0 }; // (HID(USBCode)"KEY_F1")
-Guide_RM( 58 ) = { 1, 14, KEY_F2, 0 }; // (HID(USBCode)"KEY_F2")
-Guide_RM( 59 ) = { 1, 14, KEY_F3, 0 }; // (HID(USBCode)"KEY_F3")
-Guide_RM( 60 ) = { 1, 14, KEY_F4, 0 }; // (HID(USBCode)"KEY_F4")
-Guide_RM( 61 ) = { 1, 14, KEY_F5, 0 }; // (HID(USBCode)"KEY_F5")
-Guide_RM( 62 ) = { 1, 14, KEY_F6, 0 }; // (HID(USBCode)"KEY_F6")
-Guide_RM( 63 ) = { 1, 14, KEY_F7, 0 }; // (HID(USBCode)"KEY_F7")
-Guide_RM( 64 ) = { 1, 14, KEY_F8, 0 }; // (HID(USBCode)"KEY_F8")
-Guide_RM( 65 ) = { 1, 14, KEY_F9, 0 }; // (HID(USBCode)"KEY_F9")
-Guide_RM( 66 ) = { 1, 14, KEY_F10, 0 }; // (HID(USBCode)"KEY_F10")
-Guide_RM( 67 ) = { 1, 14, KEY_F11, 0 }; // (HID(USBCode)"KEY_F11")
-Guide_RM( 68 ) = { 1, 14, KEY_F12, 0 }; // (HID(USBCode)"KEY_F12")
-Guide_RM( 69 ) = { 1, 14, KEY_PRINTSCREEN, 0 }; // (HID(USBCode)"KEY_PRINTSCREEN")
-Guide_RM( 70 ) = { 1, 14, KEY_SCROLL_LOCK, 0 }; // (HID(USBCode)"KEY_SCROLL_LOCK")
-Guide_RM( 71 ) = { 1, 14, KEY_PAUSE, 0 }; // (HID(USBCode)"KEY_PAUSE")
-Guide_RM( 72 ) = { 1, 14, KEY_INSERT, 0 }; // (HID(USBCode)"KEY_INSERT")
-Guide_RM( 73 ) = { 1, 14, KEY_HOME, 0 }; // (HID(USBCode)"KEY_HOME")
-Guide_RM( 74 ) = { 1, 14, KEY_PAGE_UP, 0 }; // (HID(USBCode)"KEY_PAGE_UP")
-Guide_RM( 75 ) = { 1, 14, KEY_DELETE, 0 }; // (HID(USBCode)"KEY_DELETE")
-Guide_RM( 76 ) = { 1, 14, KEY_END, 0 }; // (HID(USBCode)"KEY_END")
-Guide_RM( 77 ) = { 1, 14, KEY_PAGE_DOWN, 0 }; // (HID(USBCode)"KEY_PAGE_DOWN")
-Guide_RM( 78 ) = { 1, 14, KEY_RIGHT, 0 }; // (HID(USBCode)"KEY_RIGHT")
-Guide_RM( 79 ) = { 1, 14, KEY_LEFT, 0 }; // (HID(USBCode)"KEY_LEFT")
-Guide_RM( 80 ) = { 1, 14, KEY_DOWN, 0 }; // (HID(USBCode)"KEY_DOWN")
-Guide_RM( 81 ) = { 1, 14, KEY_UP, 0 }; // (HID(USBCode)"KEY_UP")
-Guide_RM( 82 ) = { 1, 14, KEY_NUM_LOCK, 0 }; // (HID(USBCode)"KEY_NUM_LOCK")
-Guide_RM( 83 ) = { 1, 14, KEYPAD_SLASH, 0 }; // (HID(USBCode)"KEYPAD_SLASH")
-Guide_RM( 84 ) = { 1, 14, KEYPAD_ASTERISK, 0 }; // (HID(USBCode)"KEYPAD_ASTERISK")
-Guide_RM( 85 ) = { 1, 14, KEYPAD_MINUS, 0 }; // (HID(USBCode)"KEYPAD_MINUS")
-Guide_RM( 86 ) = { 1, 14, KEYPAD_PLUS, 0 }; // (HID(USBCode)"KEYPAD_PLUS")
-Guide_RM( 87 ) = { 1, 14, KEYPAD_1, 0 }; // (HID(USBCode)"KEYPAD_1")
-Guide_RM( 88 ) = { 1, 14, KEYPAD_2, 0 }; // (HID(USBCode)"KEYPAD_2")
-Guide_RM( 89 ) = { 1, 14, KEYPAD_3, 0 }; // (HID(USBCode)"KEYPAD_3")
-Guide_RM( 90 ) = { 1, 14, KEYPAD_4, 0 }; // (HID(USBCode)"KEYPAD_4")
-Guide_RM( 91 ) = { 1, 14, KEYPAD_5, 0 }; // (HID(USBCode)"KEYPAD_5")
-Guide_RM( 92 ) = { 1, 14, KEYPAD_6, 0 }; // (HID(USBCode)"KEYPAD_6")
-Guide_RM( 93 ) = { 1, 14, KEYPAD_7, 0 }; // (HID(USBCode)"KEYPAD_7")
-Guide_RM( 94 ) = { 1, 14, KEYPAD_8, 0 }; // (HID(USBCode)"KEYPAD_8")
-Guide_RM( 95 ) = { 1, 14, KEYPAD_9, 0 }; // (HID(USBCode)"KEYPAD_9")
-Guide_RM( 96 ) = { 1, 14, KEYPAD_0, 0 }; // (HID(USBCode)"KEYPAD_0")
-Guide_RM( 97 ) = { 1, 14, KEYPAD_PERIOD, 0 }; // (HID(USBCode)"KEYPAD_PERIOD")
-Guide_RM( 98 ) = { 1, 14, KEY_LCTRL, 0 }; // (HID(USBCode)"KEY_LCTRL")
-Guide_RM( 99 ) = { 1, 14, KEY_LSHIFT, 0 }; // (HID(USBCode)"KEY_LSHIFT")
-Guide_RM( 100 ) = { 1, 14, KEY_LALT, 0 }; // (HID(USBCode)"KEY_LALT")
-Guide_RM( 101 ) = { 1, 14, KEY_LGUI, 0 }; // (HID(USBCode)"KEY_LGUI")
-Guide_RM( 102 ) = { 1, 14, KEY_RCTRL, 0 }; // (HID(USBCode)"KEY_RCTRL")
-Guide_RM( 103 ) = { 1, 14, KEY_RSHIFT, 0 }; // (HID(USBCode)"KEY_RSHIFT")
-Guide_RM( 104 ) = { 1, 14, KEY_RALT, 0 }; // (HID(USBCode)"KEY_RALT")
-Guide_RM( 105 ) = { 1, 8, 0 }; // (flashMode())
-Guide_RM( 106 ) = { 1, 0, 1, 0, 0 }; // (layerLatch(1))
-Guide_RM( 107 ) = { 1, 3, 5, 0, 0 }; // (layerShift(5))
-Guide_RM( 108 ) = { 1, 3, 6, 0, 0 }; // (layerShift(6))
+Guide_RM( 1 ) = { 1, 7, 205, 0, 0 }; // (HID(ConsCode)"CONSUMER_PAUSE_PLAY")
+Guide_RM( 2 ) = { 1, 7, 226, 0, 0 }; // (HID(ConsCode)"CONSUMER_MUTE")
+Guide_RM( 3 ) = { 1, 7, 233, 0, 0 }; // (HID(ConsCode)"CONSUMER_VOLUME_UP")
+Guide_RM( 4 ) = { 1, 7, 234, 0, 0 }; // (HID(ConsCode)"CONSUMER_VOLUME_DOWN")
+Guide_RM( 5 ) = { 1, 14, KEY_A, 0 }; // (HID(USBCode)"KEY_A")
+Guide_RM( 6 ) = { 1, 14, KEY_B, 0 }; // (HID(USBCode)"KEY_B")
+Guide_RM( 7 ) = { 1, 14, KEY_C, 0 }; // (HID(USBCode)"KEY_C")
+Guide_RM( 8 ) = { 1, 14, KEY_D, 0 }; // (HID(USBCode)"KEY_D")
+Guide_RM( 9 ) = { 1, 14, KEY_E, 0 }; // (HID(USBCode)"KEY_E")
+Guide_RM( 10 ) = { 1, 14, KEY_F, 0 }; // (HID(USBCode)"KEY_F")
+Guide_RM( 11 ) = { 1, 14, KEY_G, 0 }; // (HID(USBCode)"KEY_G")
+Guide_RM( 12 ) = { 1, 14, KEY_H, 0 }; // (HID(USBCode)"KEY_H")
+Guide_RM( 13 ) = { 1, 14, KEY_I, 0 }; // (HID(USBCode)"KEY_I")
+Guide_RM( 14 ) = { 1, 14, KEY_J, 0 }; // (HID(USBCode)"KEY_J")
+Guide_RM( 15 ) = { 1, 14, KEY_K, 0 }; // (HID(USBCode)"KEY_K")
+Guide_RM( 16 ) = { 1, 14, KEY_L, 0 }; // (HID(USBCode)"KEY_L")
+Guide_RM( 17 ) = { 1, 14, KEY_M, 0 }; // (HID(USBCode)"KEY_M")
+Guide_RM( 18 ) = { 1, 14, KEY_N, 0 }; // (HID(USBCode)"KEY_N")
+Guide_RM( 19 ) = { 1, 14, KEY_O, 0 }; // (HID(USBCode)"KEY_O")
+Guide_RM( 20 ) = { 1, 14, KEY_P, 0 }; // (HID(USBCode)"KEY_P")
+Guide_RM( 21 ) = { 1, 14, KEY_Q, 0 }; // (HID(USBCode)"KEY_Q")
+Guide_RM( 22 ) = { 1, 14, KEY_R, 0 }; // (HID(USBCode)"KEY_R")
+Guide_RM( 23 ) = { 1, 14, KEY_S, 0 }; // (HID(USBCode)"KEY_S")
+Guide_RM( 24 ) = { 1, 14, KEY_T, 0 }; // (HID(USBCode)"KEY_T")
+Guide_RM( 25 ) = { 1, 14, KEY_U, 0 }; // (HID(USBCode)"KEY_U")
+Guide_RM( 26 ) = { 1, 14, KEY_V, 0 }; // (HID(USBCode)"KEY_V")
+Guide_RM( 27 ) = { 1, 14, KEY_W, 0 }; // (HID(USBCode)"KEY_W")
+Guide_RM( 28 ) = { 1, 14, KEY_X, 0 }; // (HID(USBCode)"KEY_X")
+Guide_RM( 29 ) = { 1, 14, KEY_Y, 0 }; // (HID(USBCode)"KEY_Y")
+Guide_RM( 30 ) = { 1, 14, KEY_Z, 0 }; // (HID(USBCode)"KEY_Z")
+Guide_RM( 31 ) = { 1, 14, KEY_1, 0 }; // (HID(USBCode)"KEY_1")
+Guide_RM( 32 ) = { 1, 14, KEY_2, 0 }; // (HID(USBCode)"KEY_2")
+Guide_RM( 33 ) = { 1, 14, KEY_3, 0 }; // (HID(USBCode)"KEY_3")
+Guide_RM( 34 ) = { 1, 14, KEY_4, 0 }; // (HID(USBCode)"KEY_4")
+Guide_RM( 35 ) = { 1, 14, KEY_5, 0 }; // (HID(USBCode)"KEY_5")
+Guide_RM( 36 ) = { 1, 14, KEY_6, 0 }; // (HID(USBCode)"KEY_6")
+Guide_RM( 37 ) = { 1, 14, KEY_7, 0 }; // (HID(USBCode)"KEY_7")
+Guide_RM( 38 ) = { 1, 14, KEY_8, 0 }; // (HID(USBCode)"KEY_8")
+Guide_RM( 39 ) = { 1, 14, KEY_9, 0 }; // (HID(USBCode)"KEY_9")
+Guide_RM( 40 ) = { 1, 14, KEY_0, 0 }; // (HID(USBCode)"KEY_0")
+Guide_RM( 41 ) = { 1, 14, KEY_ENTER, 0 }; // (HID(USBCode)"KEY_ENTER")
+Guide_RM( 42 ) = { 1, 14, KEY_ESC, 0 }; // (HID(USBCode)"KEY_ESC")
+Guide_RM( 43 ) = { 1, 14, KEY_BACKSPACE, 0 }; // (HID(USBCode)"KEY_BACKSPACE")
+Guide_RM( 44 ) = { 1, 14, KEY_TAB, 0 }; // (HID(USBCode)"KEY_TAB")
+Guide_RM( 45 ) = { 1, 14, KEY_SPACE, 0 }; // (HID(USBCode)"KEY_SPACE")
+Guide_RM( 46 ) = { 1, 14, KEY_MINUS, 0 }; // (HID(USBCode)"KEY_MINUS")
+Guide_RM( 47 ) = { 1, 14, KEY_EQUAL, 0 }; // (HID(USBCode)"KEY_EQUAL")
+Guide_RM( 48 ) = { 1, 14, KEY_LEFT_BRACKET, 0 }; // (HID(USBCode)"KEY_LEFT_BRACKET")
+Guide_RM( 49 ) = { 1, 14, KEY_RIGHT_BRACKET, 0 }; // (HID(USBCode)"KEY_RIGHT_BRACKET")
+Guide_RM( 50 ) = { 1, 14, KEY_BACKSLASH, 0 }; // (HID(USBCode)"KEY_BACKSLASH")
+Guide_RM( 51 ) = { 1, 14, KEY_SEMICOLON, 0 }; // (HID(USBCode)"KEY_SEMICOLON")
+Guide_RM( 52 ) = { 1, 14, KEY_QUOTE, 0 }; // (HID(USBCode)"KEY_QUOTE")
+Guide_RM( 53 ) = { 1, 14, KEY_BACKTICK, 0 }; // (HID(USBCode)"KEY_BACKTICK")
+Guide_RM( 54 ) = { 1, 14, KEY_COMMA, 0 }; // (HID(USBCode)"KEY_COMMA")
+Guide_RM( 55 ) = { 1, 14, KEY_PERIOD, 0 }; // (HID(USBCode)"KEY_PERIOD")
+Guide_RM( 56 ) = { 1, 14, KEY_SLASH, 0 }; // (HID(USBCode)"KEY_SLASH")
+Guide_RM( 57 ) = { 1, 14, KEY_CAPS_LOCK, 0 }; // (HID(USBCode)"KEY_CAPS_LOCK")
+Guide_RM( 58 ) = { 1, 14, KEY_F1, 0 }; // (HID(USBCode)"KEY_F1")
+Guide_RM( 59 ) = { 1, 14, KEY_F2, 0 }; // (HID(USBCode)"KEY_F2")
+Guide_RM( 60 ) = { 1, 14, KEY_F3, 0 }; // (HID(USBCode)"KEY_F3")
+Guide_RM( 61 ) = { 1, 14, KEY_F4, 0 }; // (HID(USBCode)"KEY_F4")
+Guide_RM( 62 ) = { 1, 14, KEY_F5, 0 }; // (HID(USBCode)"KEY_F5")
+Guide_RM( 63 ) = { 1, 14, KEY_F6, 0 }; // (HID(USBCode)"KEY_F6")
+Guide_RM( 64 ) = { 1, 14, KEY_F7, 0 }; // (HID(USBCode)"KEY_F7")
+Guide_RM( 65 ) = { 1, 14, KEY_F8, 0 }; // (HID(USBCode)"KEY_F8")
+Guide_RM( 66 ) = { 1, 14, KEY_F9, 0 }; // (HID(USBCode)"KEY_F9")
+Guide_RM( 67 ) = { 1, 14, KEY_F10, 0 }; // (HID(USBCode)"KEY_F10")
+Guide_RM( 68 ) = { 1, 14, KEY_F11, 0 }; // (HID(USBCode)"KEY_F11")
+Guide_RM( 69 ) = { 1, 14, KEY_F12, 0 }; // (HID(USBCode)"KEY_F12")
+Guide_RM( 70 ) = { 1, 14, KEY_PRINTSCREEN, 0 }; // (HID(USBCode)"KEY_PRINTSCREEN")
+Guide_RM( 71 ) = { 1, 14, KEY_SCROLL_LOCK, 0 }; // (HID(USBCode)"KEY_SCROLL_LOCK")
+Guide_RM( 72 ) = { 1, 14, KEY_PAUSE, 0 }; // (HID(USBCode)"KEY_PAUSE")
+Guide_RM( 73 ) = { 1, 14, KEY_INSERT, 0 }; // (HID(USBCode)"KEY_INSERT")
+Guide_RM( 74 ) = { 1, 14, KEY_HOME, 0 }; // (HID(USBCode)"KEY_HOME")
+Guide_RM( 75 ) = { 1, 14, KEY_PAGE_UP, 0 }; // (HID(USBCode)"KEY_PAGE_UP")
+Guide_RM( 76 ) = { 1, 14, KEY_DELETE, 0 }; // (HID(USBCode)"KEY_DELETE")
+Guide_RM( 77 ) = { 1, 14, KEY_END, 0 }; // (HID(USBCode)"KEY_END")
+Guide_RM( 78 ) = { 1, 14, KEY_PAGE_DOWN, 0 }; // (HID(USBCode)"KEY_PAGE_DOWN")
+Guide_RM( 79 ) = { 1, 14, KEY_RIGHT, 0 }; // (HID(USBCode)"KEY_RIGHT")
+Guide_RM( 80 ) = { 1, 14, KEY_LEFT, 0 }; // (HID(USBCode)"KEY_LEFT")
+Guide_RM( 81 ) = { 1, 14, KEY_DOWN, 0 }; // (HID(USBCode)"KEY_DOWN")
+Guide_RM( 82 ) = { 1, 14, KEY_UP, 0 }; // (HID(USBCode)"KEY_UP")
+Guide_RM( 83 ) = { 1, 14, KEY_NUM_LOCK, 0 }; // (HID(USBCode)"KEY_NUM_LOCK")
+Guide_RM( 84 ) = { 1, 14, KEYPAD_SLASH, 0 }; // (HID(USBCode)"KEYPAD_SLASH")
+Guide_RM( 85 ) = { 1, 14, KEYPAD_ASTERISK, 0 }; // (HID(USBCode)"KEYPAD_ASTERISK")
+Guide_RM( 86 ) = { 1, 14, KEYPAD_MINUS, 0 }; // (HID(USBCode)"KEYPAD_MINUS")
+Guide_RM( 87 ) = { 1, 14, KEYPAD_PLUS, 0 }; // (HID(USBCode)"KEYPAD_PLUS")
+Guide_RM( 88 ) = { 1, 14, KEYPAD_1, 0 }; // (HID(USBCode)"KEYPAD_1")
+Guide_RM( 89 ) = { 1, 14, KEYPAD_2, 0 }; // (HID(USBCode)"KEYPAD_2")
+Guide_RM( 90 ) = { 1, 14, KEYPAD_3, 0 }; // (HID(USBCode)"KEYPAD_3")
+Guide_RM( 91 ) = { 1, 14, KEYPAD_4, 0 }; // (HID(USBCode)"KEYPAD_4")
+Guide_RM( 92 ) = { 1, 14, KEYPAD_5, 0 }; // (HID(USBCode)"KEYPAD_5")
+Guide_RM( 93 ) = { 1, 14, KEYPAD_6, 0 }; // (HID(USBCode)"KEYPAD_6")
+Guide_RM( 94 ) = { 1, 14, KEYPAD_7, 0 }; // (HID(USBCode)"KEYPAD_7")
+Guide_RM( 95 ) = { 1, 14, KEYPAD_8, 0 }; // (HID(USBCode)"KEYPAD_8")
+Guide_RM( 96 ) = { 1, 14, KEYPAD_9, 0 }; // (HID(USBCode)"KEYPAD_9")
+Guide_RM( 97 ) = { 1, 14, KEYPAD_0, 0 }; // (HID(USBCode)"KEYPAD_0")
+Guide_RM( 98 ) = { 1, 14, KEYPAD_PERIOD, 0 }; // (HID(USBCode)"KEYPAD_PERIOD")
+Guide_RM( 99 ) = { 1, 14, KEY_LCTRL, 0 }; // (HID(USBCode)"KEY_LCTRL")
+Guide_RM( 100 ) = { 1, 14, KEY_LSHIFT, 0 }; // (HID(USBCode)"KEY_LSHIFT")
+Guide_RM( 101 ) = { 1, 14, KEY_LALT, 0 }; // (HID(USBCode)"KEY_LALT")
+Guide_RM( 102 ) = { 1, 14, KEY_LGUI, 0 }; // (HID(USBCode)"KEY_LGUI")
+Guide_RM( 103 ) = { 1, 14, KEY_RCTRL, 0 }; // (HID(USBCode)"KEY_RCTRL")
+Guide_RM( 104 ) = { 1, 14, KEY_RSHIFT, 0 }; // (HID(USBCode)"KEY_RSHIFT")
+Guide_RM( 105 ) = { 1, 14, KEY_RALT, 0 }; // (HID(USBCode)"KEY_RALT")
+Guide_RM( 106 ) = { 1, 8, 0 }; // (flashMode())
+Guide_RM( 107 ) = { 1, 0, 1, 0, 0 }; // (layerLatch(1))
+Guide_RM( 108 ) = { 1, 3, 5, 0, 0 }; // (layerShift(5))
+Guide_RM( 109 ) = { 1, 3, 6, 0, 0 }; // (layerShift(6))
 
 
 // -- Result Macro List
@@ -267,114 +268,115 @@ Guide_RM( 108 ) = { 1, 3, 6, 0, 0 }; // (layerShift(6))
 // Indexed Table of Result Macros
 const ResultMacro ResultMacroList[] = {
 	Define_RM( 0 ), // (HID(ConsCode)"CONSUMER_EJECT")
-	Define_RM( 1 ), // (HID(ConsCode)"CONSUMER_MUTE")
-	Define_RM( 2 ), // (HID(ConsCode)"CONSUMER_VOLUME_UP")
-	Define_RM( 3 ), // (HID(ConsCode)"CONSUMER_VOLUME_DOWN")
-	Define_RM( 4 ), // (HID(USBCode)"KEY_A")
-	Define_RM( 5 ), // (HID(USBCode)"KEY_B")
-	Define_RM( 6 ), // (HID(USBCode)"KEY_C")
-	Define_RM( 7 ), // (HID(USBCode)"KEY_D")
-	Define_RM( 8 ), // (HID(USBCode)"KEY_E")
-	Define_RM( 9 ), // (HID(USBCode)"KEY_F")
-	Define_RM( 10 ), // (HID(USBCode)"KEY_G")
-	Define_RM( 11 ), // (HID(USBCode)"KEY_H")
-	Define_RM( 12 ), // (HID(USBCode)"KEY_I")
-	Define_RM( 13 ), // (HID(USBCode)"KEY_J")
-	Define_RM( 14 ), // (HID(USBCode)"KEY_K")
-	Define_RM( 15 ), // (HID(USBCode)"KEY_L")
-	Define_RM( 16 ), // (HID(USBCode)"KEY_M")
-	Define_RM( 17 ), // (HID(USBCode)"KEY_N")
-	Define_RM( 18 ), // (HID(USBCode)"KEY_O")
-	Define_RM( 19 ), // (HID(USBCode)"KEY_P")
-	Define_RM( 20 ), // (HID(USBCode)"KEY_Q")
-	Define_RM( 21 ), // (HID(USBCode)"KEY_R")
-	Define_RM( 22 ), // (HID(USBCode)"KEY_S")
-	Define_RM( 23 ), // (HID(USBCode)"KEY_T")
-	Define_RM( 24 ), // (HID(USBCode)"KEY_U")
-	Define_RM( 25 ), // (HID(USBCode)"KEY_V")
-	Define_RM( 26 ), // (HID(USBCode)"KEY_W")
-	Define_RM( 27 ), // (HID(USBCode)"KEY_X")
-	Define_RM( 28 ), // (HID(USBCode)"KEY_Y")
-	Define_RM( 29 ), // (HID(USBCode)"KEY_Z")
-	Define_RM( 30 ), // (HID(USBCode)"KEY_1")
-	Define_RM( 31 ), // (HID(USBCode)"KEY_2")
-	Define_RM( 32 ), // (HID(USBCode)"KEY_3")
-	Define_RM( 33 ), // (HID(USBCode)"KEY_4")
-	Define_RM( 34 ), // (HID(USBCode)"KEY_5")
-	Define_RM( 35 ), // (HID(USBCode)"KEY_6")
-	Define_RM( 36 ), // (HID(USBCode)"KEY_7")
-	Define_RM( 37 ), // (HID(USBCode)"KEY_8")
-	Define_RM( 38 ), // (HID(USBCode)"KEY_9")
-	Define_RM( 39 ), // (HID(USBCode)"KEY_0")
-	Define_RM( 40 ), // (HID(USBCode)"KEY_ENTER")
-	Define_RM( 41 ), // (HID(USBCode)"KEY_ESC")
-	Define_RM( 42 ), // (HID(USBCode)"KEY_BACKSPACE")
-	Define_RM( 43 ), // (HID(USBCode)"KEY_TAB")
-	Define_RM( 44 ), // (HID(USBCode)"KEY_SPACE")
-	Define_RM( 45 ), // (HID(USBCode)"KEY_MINUS")
-	Define_RM( 46 ), // (HID(USBCode)"KEY_EQUAL")
-	Define_RM( 47 ), // (HID(USBCode)"KEY_LEFT_BRACKET")
-	Define_RM( 48 ), // (HID(USBCode)"KEY_RIGHT_BRACKET")
-	Define_RM( 49 ), // (HID(USBCode)"KEY_BACKSLASH")
-	Define_RM( 50 ), // (HID(USBCode)"KEY_SEMICOLON")
-	Define_RM( 51 ), // (HID(USBCode)"KEY_QUOTE")
-	Define_RM( 52 ), // (HID(USBCode)"KEY_BACKTICK")
-	Define_RM( 53 ), // (HID(USBCode)"KEY_COMMA")
-	Define_RM( 54 ), // (HID(USBCode)"KEY_PERIOD")
-	Define_RM( 55 ), // (HID(USBCode)"KEY_SLASH")
-	Define_RM( 56 ), // (HID(USBCode)"KEY_CAPS_LOCK")
-	Define_RM( 57 ), // (HID(USBCode)"KEY_F1")
-	Define_RM( 58 ), // (HID(USBCode)"KEY_F2")
-	Define_RM( 59 ), // (HID(USBCode)"KEY_F3")
-	Define_RM( 60 ), // (HID(USBCode)"KEY_F4")
-	Define_RM( 61 ), // (HID(USBCode)"KEY_F5")
-	Define_RM( 62 ), // (HID(USBCode)"KEY_F6")
-	Define_RM( 63 ), // (HID(USBCode)"KEY_F7")
-	Define_RM( 64 ), // (HID(USBCode)"KEY_F8")
-	Define_RM( 65 ), // (HID(USBCode)"KEY_F9")
-	Define_RM( 66 ), // (HID(USBCode)"KEY_F10")
-	Define_RM( 67 ), // (HID(USBCode)"KEY_F11")
-	Define_RM( 68 ), // (HID(USBCode)"KEY_F12")
-	Define_RM( 69 ), // (HID(USBCode)"KEY_PRINTSCREEN")
-	Define_RM( 70 ), // (HID(USBCode)"KEY_SCROLL_LOCK")
-	Define_RM( 71 ), // (HID(USBCode)"KEY_PAUSE")
-	Define_RM( 72 ), // (HID(USBCode)"KEY_INSERT")
-	Define_RM( 73 ), // (HID(USBCode)"KEY_HOME")
-	Define_RM( 74 ), // (HID(USBCode)"KEY_PAGE_UP")
-	Define_RM( 75 ), // (HID(USBCode)"KEY_DELETE")
-	Define_RM( 76 ), // (HID(USBCode)"KEY_END")
-	Define_RM( 77 ), // (HID(USBCode)"KEY_PAGE_DOWN")
-	Define_RM( 78 ), // (HID(USBCode)"KEY_RIGHT")
-	Define_RM( 79 ), // (HID(USBCode)"KEY_LEFT")
-	Define_RM( 80 ), // (HID(USBCode)"KEY_DOWN")
-	Define_RM( 81 ), // (HID(USBCode)"KEY_UP")
-	Define_RM( 82 ), // (HID(USBCode)"KEY_NUM_LOCK")
-	Define_RM( 83 ), // (HID(USBCode)"KEYPAD_SLASH")
-	Define_RM( 84 ), // (HID(USBCode)"KEYPAD_ASTERISK")
-	Define_RM( 85 ), // (HID(USBCode)"KEYPAD_MINUS")
-	Define_RM( 86 ), // (HID(USBCode)"KEYPAD_PLUS")
-	Define_RM( 87 ), // (HID(USBCode)"KEYPAD_1")
-	Define_RM( 88 ), // (HID(USBCode)"KEYPAD_2")
-	Define_RM( 89 ), // (HID(USBCode)"KEYPAD_3")
-	Define_RM( 90 ), // (HID(USBCode)"KEYPAD_4")
-	Define_RM( 91 ), // (HID(USBCode)"KEYPAD_5")
-	Define_RM( 92 ), // (HID(USBCode)"KEYPAD_6")
-	Define_RM( 93 ), // (HID(USBCode)"KEYPAD_7")
-	Define_RM( 94 ), // (HID(USBCode)"KEYPAD_8")
-	Define_RM( 95 ), // (HID(USBCode)"KEYPAD_9")
-	Define_RM( 96 ), // (HID(USBCode)"KEYPAD_0")
-	Define_RM( 97 ), // (HID(USBCode)"KEYPAD_PERIOD")
-	Define_RM( 98 ), // (HID(USBCode)"KEY_LCTRL")
-	Define_RM( 99 ), // (HID(USBCode)"KEY_LSHIFT")
-	Define_RM( 100 ), // (HID(USBCode)"KEY_LALT")
-	Define_RM( 101 ), // (HID(USBCode)"KEY_LGUI")
-	Define_RM( 102 ), // (HID(USBCode)"KEY_RCTRL")
-	Define_RM( 103 ), // (HID(USBCode)"KEY_RSHIFT")
-	Define_RM( 104 ), // (HID(USBCode)"KEY_RALT")
-	Define_RM( 105 ), // (flashMode())
-	Define_RM( 106 ), // (layerLatch(1))
-	Define_RM( 107 ), // (layerShift(5))
-	Define_RM( 108 ), // (layerShift(6))
+	Define_RM( 1 ), // (HID(ConsCode)"CONSUMER_PAUSE_PLAY")
+	Define_RM( 2 ), // (HID(ConsCode)"CONSUMER_MUTE")
+	Define_RM( 3 ), // (HID(ConsCode)"CONSUMER_VOLUME_UP")
+	Define_RM( 4 ), // (HID(ConsCode)"CONSUMER_VOLUME_DOWN")
+	Define_RM( 5 ), // (HID(USBCode)"KEY_A")
+	Define_RM( 6 ), // (HID(USBCode)"KEY_B")
+	Define_RM( 7 ), // (HID(USBCode)"KEY_C")
+	Define_RM( 8 ), // (HID(USBCode)"KEY_D")
+	Define_RM( 9 ), // (HID(USBCode)"KEY_E")
+	Define_RM( 10 ), // (HID(USBCode)"KEY_F")
+	Define_RM( 11 ), // (HID(USBCode)"KEY_G")
+	Define_RM( 12 ), // (HID(USBCode)"KEY_H")
+	Define_RM( 13 ), // (HID(USBCode)"KEY_I")
+	Define_RM( 14 ), // (HID(USBCode)"KEY_J")
+	Define_RM( 15 ), // (HID(USBCode)"KEY_K")
+	Define_RM( 16 ), // (HID(USBCode)"KEY_L")
+	Define_RM( 17 ), // (HID(USBCode)"KEY_M")
+	Define_RM( 18 ), // (HID(USBCode)"KEY_N")
+	Define_RM( 19 ), // (HID(USBCode)"KEY_O")
+	Define_RM( 20 ), // (HID(USBCode)"KEY_P")
+	Define_RM( 21 ), // (HID(USBCode)"KEY_Q")
+	Define_RM( 22 ), // (HID(USBCode)"KEY_R")
+	Define_RM( 23 ), // (HID(USBCode)"KEY_S")
+	Define_RM( 24 ), // (HID(USBCode)"KEY_T")
+	Define_RM( 25 ), // (HID(USBCode)"KEY_U")
+	Define_RM( 26 ), // (HID(USBCode)"KEY_V")
+	Define_RM( 27 ), // (HID(USBCode)"KEY_W")
+	Define_RM( 28 ), // (HID(USBCode)"KEY_X")
+	Define_RM( 29 ), // (HID(USBCode)"KEY_Y")
+	Define_RM( 30 ), // (HID(USBCode)"KEY_Z")
+	Define_RM( 31 ), // (HID(USBCode)"KEY_1")
+	Define_RM( 32 ), // (HID(USBCode)"KEY_2")
+	Define_RM( 33 ), // (HID(USBCode)"KEY_3")
+	Define_RM( 34 ), // (HID(USBCode)"KEY_4")
+	Define_RM( 35 ), // (HID(USBCode)"KEY_5")
+	Define_RM( 36 ), // (HID(USBCode)"KEY_6")
+	Define_RM( 37 ), // (HID(USBCode)"KEY_7")
+	Define_RM( 38 ), // (HID(USBCode)"KEY_8")
+	Define_RM( 39 ), // (HID(USBCode)"KEY_9")
+	Define_RM( 40 ), // (HID(USBCode)"KEY_0")
+	Define_RM( 41 ), // (HID(USBCode)"KEY_ENTER")
+	Define_RM( 42 ), // (HID(USBCode)"KEY_ESC")
+	Define_RM( 43 ), // (HID(USBCode)"KEY_BACKSPACE")
+	Define_RM( 44 ), // (HID(USBCode)"KEY_TAB")
+	Define_RM( 45 ), // (HID(USBCode)"KEY_SPACE")
+	Define_RM( 46 ), // (HID(USBCode)"KEY_MINUS")
+	Define_RM( 47 ), // (HID(USBCode)"KEY_EQUAL")
+	Define_RM( 48 ), // (HID(USBCode)"KEY_LEFT_BRACKET")
+	Define_RM( 49 ), // (HID(USBCode)"KEY_RIGHT_BRACKET")
+	Define_RM( 50 ), // (HID(USBCode)"KEY_BACKSLASH")
+	Define_RM( 51 ), // (HID(USBCode)"KEY_SEMICOLON")
+	Define_RM( 52 ), // (HID(USBCode)"KEY_QUOTE")
+	Define_RM( 53 ), // (HID(USBCode)"KEY_BACKTICK")
+	Define_RM( 54 ), // (HID(USBCode)"KEY_COMMA")
+	Define_RM( 55 ), // (HID(USBCode)"KEY_PERIOD")
+	Define_RM( 56 ), // (HID(USBCode)"KEY_SLASH")
+	Define_RM( 57 ), // (HID(USBCode)"KEY_CAPS_LOCK")
+	Define_RM( 58 ), // (HID(USBCode)"KEY_F1")
+	Define_RM( 59 ), // (HID(USBCode)"KEY_F2")
+	Define_RM( 60 ), // (HID(USBCode)"KEY_F3")
+	Define_RM( 61 ), // (HID(USBCode)"KEY_F4")
+	Define_RM( 62 ), // (HID(USBCode)"KEY_F5")
+	Define_RM( 63 ), // (HID(USBCode)"KEY_F6")
+	Define_RM( 64 ), // (HID(USBCode)"KEY_F7")
+	Define_RM( 65 ), // (HID(USBCode)"KEY_F8")
+	Define_RM( 66 ), // (HID(USBCode)"KEY_F9")
+	Define_RM( 67 ), // (HID(USBCode)"KEY_F10")
+	Define_RM( 68 ), // (HID(USBCode)"KEY_F11")
+	Define_RM( 69 ), // (HID(USBCode)"KEY_F12")
+	Define_RM( 70 ), // (HID(USBCode)"KEY_PRINTSCREEN")
+	Define_RM( 71 ), // (HID(USBCode)"KEY_SCROLL_LOCK")
+	Define_RM( 72 ), // (HID(USBCode)"KEY_PAUSE")
+	Define_RM( 73 ), // (HID(USBCode)"KEY_INSERT")
+	Define_RM( 74 ), // (HID(USBCode)"KEY_HOME")
+	Define_RM( 75 ), // (HID(USBCode)"KEY_PAGE_UP")
+	Define_RM( 76 ), // (HID(USBCode)"KEY_DELETE")
+	Define_RM( 77 ), // (HID(USBCode)"KEY_END")
+	Define_RM( 78 ), // (HID(USBCode)"KEY_PAGE_DOWN")
+	Define_RM( 79 ), // (HID(USBCode)"KEY_RIGHT")
+	Define_RM( 80 ), // (HID(USBCode)"KEY_LEFT")
+	Define_RM( 81 ), // (HID(USBCode)"KEY_DOWN")
+	Define_RM( 82 ), // (HID(USBCode)"KEY_UP")
+	Define_RM( 83 ), // (HID(USBCode)"KEY_NUM_LOCK")
+	Define_RM( 84 ), // (HID(USBCode)"KEYPAD_SLASH")
+	Define_RM( 85 ), // (HID(USBCode)"KEYPAD_ASTERISK")
+	Define_RM( 86 ), // (HID(USBCode)"KEYPAD_MINUS")
+	Define_RM( 87 ), // (HID(USBCode)"KEYPAD_PLUS")
+	Define_RM( 88 ), // (HID(USBCode)"KEYPAD_1")
+	Define_RM( 89 ), // (HID(USBCode)"KEYPAD_2")
+	Define_RM( 90 ), // (HID(USBCode)"KEYPAD_3")
+	Define_RM( 91 ), // (HID(USBCode)"KEYPAD_4")
+	Define_RM( 92 ), // (HID(USBCode)"KEYPAD_5")
+	Define_RM( 93 ), // (HID(USBCode)"KEYPAD_6")
+	Define_RM( 94 ), // (HID(USBCode)"KEYPAD_7")
+	Define_RM( 95 ), // (HID(USBCode)"KEYPAD_8")
+	Define_RM( 96 ), // (HID(USBCode)"KEYPAD_9")
+	Define_RM( 97 ), // (HID(USBCode)"KEYPAD_0")
+	Define_RM( 98 ), // (HID(USBCode)"KEYPAD_PERIOD")
+	Define_RM( 99 ), // (HID(USBCode)"KEY_LCTRL")
+	Define_RM( 100 ), // (HID(USBCode)"KEY_LSHIFT")
+	Define_RM( 101 ), // (HID(USBCode)"KEY_LALT")
+	Define_RM( 102 ), // (HID(USBCode)"KEY_LGUI")
+	Define_RM( 103 ), // (HID(USBCode)"KEY_RCTRL")
+	Define_RM( 104 ), // (HID(USBCode)"KEY_RSHIFT")
+	Define_RM( 105 ), // (HID(USBCode)"KEY_RALT")
+	Define_RM( 106 ), // (flashMode())
+	Define_RM( 107 ), // (layerLatch(1))
+	Define_RM( 108 ), // (layerShift(5))
+	Define_RM( 109 ), // (layerShift(6))
 };
 
 
@@ -498,152 +500,152 @@ Guide_TM( 110 ) = { 1, TriggerType_Switch1, ScheduleType_P, 0x6F, 0 }; // (S111)
 
 // Indexed Table of Trigger Macros
 const TriggerMacro TriggerMacroList[] = {
-	/* 0 */ Define_TM( 0, 41 ), // (S000) : (HID(USBCode)"KEY_ESC");
-	/* 1 */ Define_TM( 1, 21 ), // (S001) : (HID(USBCode)"KEY_R");
-	/* 2 */ Define_TM( 2, 26 ), // (S002) : (HID(USBCode)"KEY_W");
-	/* 3 */ Define_TM( 2, 105 ), // (S002) : (flashMode());
-	/* 4 */ Define_TM( 3, 20 ), // (S003) : (HID(USBCode)"KEY_Q");
-	/* 5 */ Define_TM( 4, 28 ), // (S004) : (HID(USBCode)"KEY_Y");
-	/* 6 */ Define_TM( 5, 48 ), // (S005) : (HID(USBCode)"KEY_RIGHT_BRACKET");
-	/* 7 */ Define_TM( 6, 19 ), // (S006) : (HID(USBCode)"KEY_P");
-	/* 8 */ Define_TM( 6, 71 ), // (S006) : (HID(USBCode)"KEY_PAUSE");
-	/* 9 */ Define_TM( 7, 12 ), // (S007) : (HID(USBCode)"KEY_I");
-	/* 10 */ Define_TM( 7, 69 ), // (S007) : (HID(USBCode)"KEY_PRINTSCREEN");
-	/* 11 */ Define_TM( 8, 95 ), // (S008) : (HID(USBCode)"KEYPAD_9");
-	/* 12 */ Define_TM( 9, 93 ), // (S009) : (HID(USBCode)"KEYPAD_7");
-	/* 13 */ Define_TM( 10, 86 ), // (S010) : (HID(USBCode)"KEYPAD_PLUS");
-	/* 14 */ Define_TM( 11, 18 ), // (S011) : (HID(USBCode)"KEY_O");
-	/* 15 */ Define_TM( 11, 70 ), // (S011) : (HID(USBCode)"KEY_SCROLL_LOCK");
-	/* 16 */ Define_TM( 12, 47 ), // (S012) : (HID(USBCode)"KEY_LEFT_BRACKET");
-	/* 17 */ Define_TM( 12, 81 ), // (S012) : (HID(USBCode)"KEY_UP");
-	/* 18 */ Define_TM( 13, 49 ), // (S013) : (HID(USBCode)"KEY_BACKSLASH");
-	/* 19 */ Define_TM( 13, 72 ), // (S013) : (HID(USBCode)"KEY_INSERT");
-	/* 20 */ Define_TM( 14, 24 ), // (S014) : (HID(USBCode)"KEY_U");
-	/* 21 */ Define_TM( 15, 43 ), // (S015) : (HID(USBCode)"KEY_TAB");
-	/* 22 */ Define_TM( 15, 56 ), // (S015) : (HID(USBCode)"KEY_CAPS_LOCK");
-	/* 23 */ Define_TM( 16, 8 ), // (S016) : (HID(USBCode)"KEY_E");
-	/* 24 */ Define_TM( 17, 23 ), // (S017) : (HID(USBCode)"KEY_T");
-	/* 25 */ Define_TM( 18, 94 ), // (S018) : (HID(USBCode)"KEYPAD_8");
-	/* 26 */ Define_TM( 19, 6 ), // (S019) : (HID(USBCode)"KEY_C");
-	/* 27 */ Define_TM( 20, 29 ), // (S020) : (HID(USBCode)"KEY_Z");
-	/* 28 */ Define_TM( 21, 24 ), // (S021) : (HID(USBCode)"KEY_U");
-	/* 29 */ Define_TM( 22, 5 ), // (S022) : (HID(USBCode)"KEY_B");
-	/* 30 */ Define_TM( 23, 39 ), // (S023) : (HID(USBCode)"KEY_0");
-	/* 31 */ Define_TM( 24, 54 ), // (S024) : (HID(USBCode)"KEY_PERIOD");
-	/* 32 */ Define_TM( 24, 77 ), // (S024) : (HID(USBCode)"KEY_PAGE_DOWN");
-	/* 33 */ Define_TM( 25, 16 ), // (S025) : (HID(USBCode)"KEY_M");
-	/* 34 */ Define_TM( 25, 85 ), // (S025) : (HID(USBCode)"KEYPAD_MINUS");
-	/* 35 */ Define_TM( 26, 89 ), // (S026) : (HID(USBCode)"KEYPAD_3");
-	/* 36 */ Define_TM( 27, 87 ), // (S027) : (HID(USBCode)"KEYPAD_1");
-	/* 37 */ Define_TM( 28, 40 ), // (S028) : (HID(USBCode)"KEY_ENTER");
-	/* 38 */ Define_TM( 29, 53 ), // (S029) : (HID(USBCode)"KEY_COMMA");
-	/* 39 */ Define_TM( 29, 76 ), // (S029) : (HID(USBCode)"KEY_END");
-	/* 40 */ Define_TM( 30, 55 ), // (S030) : (HID(USBCode)"KEY_SLASH");
-	/* 41 */ Define_TM( 30, 80 ), // (S030) : (HID(USBCode)"KEY_DOWN");
-	/* 42 */ Define_TM( 31, 103 ), // (S031) : (HID(USBCode)"KEY_RSHIFT");
-	/* 43 */ Define_TM( 32, 17 ), // (S032) : (HID(USBCode)"KEY_N");
-	/* 44 */ Define_TM( 32, 86 ), // (S032) : (HID(USBCode)"KEYPAD_PLUS");
-	/* 45 */ Define_TM( 33, 99 ), // (S033) : (HID(USBCode)"KEY_LSHIFT");
-	/* 46 */ Define_TM( 34, 27 ), // (S034) : (HID(USBCode)"KEY_X");
-	/* 47 */ Define_TM( 35, 25 ), // (S035) : (HID(USBCode)"KEY_V");
-	/* 48 */ Define_TM( 36, 88 ), // (S036) : (HID(USBCode)"KEYPAD_2");
-	/* 49 */ Define_TM( 37, 59 ), // (S037) : (HID(USBCode)"KEY_F3");
-	/* 50 */ Define_TM( 38, 57 ), // (S038) : (HID(USBCode)"KEY_F1");
-	/* 51 */ Define_TM( 39, 51 ), // (S039) : (HID(USBCode)"KEY_QUOTE");
-	/* 52 */ Define_TM( 40, 61 ), // (S040) : (HID(USBCode)"KEY_F5");
-	/* 53 */ Define_TM( 41, 67 ), // (S041) : (HID(USBCode)"KEY_F11");
-	/* 54 */ Define_TM( 42, 65 ), // (S042) : (HID(USBCode)"KEY_F9");
-	/* 55 */ Define_TM( 43, 63 ), // (S043) : (HID(USBCode)"KEY_F7");
-	/* 56 */ Define_TM( 44, 3 ), // (S044) : (HID(ConsCode)"CONSUMER_VOLUME_DOWN");
-	/* 57 */ Define_TM( 45, 75 ), // (S045) : (HID(USBCode)"KEY_DELETE");
-	/* 58 */ Define_TM( 46, 2 ), // (S046) : (HID(ConsCode)"CONSUMER_VOLUME_UP");
-	/* 59 */ Define_TM( 47, 64 ), // (S047) : (HID(USBCode)"KEY_F8");
-	/* 60 */ Define_TM( 48, 66 ), // (S048) : (HID(USBCode)"KEY_F10");
-	/* 61 */ Define_TM( 49, 68 ), // (S049) : (HID(USBCode)"KEY_F12");
-	/* 62 */ Define_TM( 50, 62 ), // (S050) : (HID(USBCode)"KEY_F6");
-	/* 63 */ Define_TM( 51, 41 ), // (S051) : (HID(USBCode)"KEY_ESC");
-	/* 64 */ Define_TM( 52, 58 ), // (S052) : (HID(USBCode)"KEY_F2");
-	/* 65 */ Define_TM( 53, 60 ), // (S053) : (HID(USBCode)"KEY_F4");
-	/* 66 */ Define_TM( 54, 1 ), // (S054) : (HID(ConsCode)"CONSUMER_MUTE");
-	/* 67 */ Define_TM( 55, 33 ), // (S055) : (HID(USBCode)"KEY_4");
-	/* 68 */ Define_TM( 56, 31 ), // (S056) : (HID(USBCode)"KEY_2");
-	/* 69 */ Define_TM( 56, 58 ), // (S056) : (HID(USBCode)"KEY_F2");
-	/* 70 */ Define_TM( 57, 30 ), // (S057) : (HID(USBCode)"KEY_1");
-	/* 71 */ Define_TM( 58, 35 ), // (S058) : (HID(USBCode)"KEY_6");
-	/* 72 */ Define_TM( 58, 62 ), // (S058) : (HID(USBCode)"KEY_F6");
-	/* 73 */ Define_TM( 59, 46 ), // (S059) : (HID(USBCode)"KEY_EQUAL");
-	/* 74 */ Define_TM( 59, 68 ), // (S059) : (HID(USBCode)"KEY_F12");
-	/* 75 */ Define_TM( 60, 39 ), // (S060) : (HID(USBCode)"KEY_0");
-	/* 76 */ Define_TM( 60, 66 ), // (S060) : (HID(USBCode)"KEY_F10");
-	/* 77 */ Define_TM( 61, 37 ), // (S061) : (HID(USBCode)"KEY_8");
-	/* 78 */ Define_TM( 61, 64 ), // (S061) : (HID(USBCode)"KEY_F8");
-	/* 79 */ Define_TM( 62, 84 ), // (S062) : (HID(USBCode)"KEYPAD_ASTERISK");
-	/* 80 */ Define_TM( 63, 82 ), // (S063) : (HID(USBCode)"KEY_NUM_LOCK");
-	/* 81 */ Define_TM( 64, 85 ), // (S064) : (HID(USBCode)"KEYPAD_MINUS");
-	/* 82 */ Define_TM( 65, 38 ), // (S065) : (HID(USBCode)"KEY_9");
-	/* 83 */ Define_TM( 66, 45 ), // (S066) : (HID(USBCode)"KEY_MINUS");
-	/* 84 */ Define_TM( 66, 67 ), // (S066) : (HID(USBCode)"KEY_F11");
-	/* 85 */ Define_TM( 67, 42 ), // (S067) : (HID(USBCode)"KEY_BACKSPACE");
-	/* 86 */ Define_TM( 68, 36 ), // (S068) : (HID(USBCode)"KEY_7");
-	/* 87 */ Define_TM( 69, 52 ), // (S069) : (HID(USBCode)"KEY_BACKTICK");
-	/* 88 */ Define_TM( 69, 75 ), // (S069) : (HID(USBCode)"KEY_DELETE");
-	/* 89 */ Define_TM( 70, 32 ), // (S070) : (HID(USBCode)"KEY_3");
-	/* 90 */ Define_TM( 71, 34 ), // (S071) : (HID(USBCode)"KEY_5");
-	/* 91 */ Define_TM( 72, 83 ), // (S072) : (HID(USBCode)"KEYPAD_SLASH");
-	/* 92 */ Define_TM( 73, 9 ), // (S073) : (HID(USBCode)"KEY_F");
-	/* 93 */ Define_TM( 73, 0 ), // (S073) : (HID(ConsCode)"CONSUMER_EJECT");
-	/* 94 */ Define_TM( 74, 22 ), // (S074) : (HID(USBCode)"KEY_S");
-	/* 95 */ Define_TM( 74, 2 ), // (S074) : (HID(ConsCode)"CONSUMER_VOLUME_UP");
-	/* 96 */ Define_TM( 75, 4 ), // (S075) : (HID(USBCode)"KEY_A");
-	/* 97 */ Define_TM( 75, 3 ), // (S075) : (HID(ConsCode)"CONSUMER_VOLUME_DOWN");
-	/* 98 */ Define_TM( 76, 11 ), // (S076) : (HID(USBCode)"KEY_H");
-	/* 99 */ Define_TM( 76, 84 ), // (S076) : (HID(USBCode)"KEYPAD_ASTERISK");
-	/* 100 */ Define_TM( 77, 56 ), // (S077) : (HID(USBCode)"KEY_CAPS_LOCK");
-	/* 101 */ Define_TM( 78, 50 ), // (S078) : (HID(USBCode)"KEY_SEMICOLON");
-	/* 102 */ Define_TM( 78, 79 ), // (S078) : (HID(USBCode)"KEY_LEFT");
-	/* 103 */ Define_TM( 79, 14 ), // (S079) : (HID(USBCode)"KEY_K");
-	/* 104 */ Define_TM( 79, 73 ), // (S079) : (HID(USBCode)"KEY_HOME");
-	/* 105 */ Define_TM( 80, 92 ), // (S080) : (HID(USBCode)"KEYPAD_6");
-	/* 106 */ Define_TM( 81, 90 ), // (S081) : (HID(USBCode)"KEYPAD_4");
-	/* 107 */ Define_TM( 82, 30 ), // (S082) : (HID(USBCode)"KEY_1");
-	/* 108 */ Define_TM( 83, 15 ), // (S083) : (HID(USBCode)"KEY_L");
-	/* 109 */ Define_TM( 83, 74 ), // (S083) : (HID(USBCode)"KEY_PAGE_UP");
-	/* 110 */ Define_TM( 84, 51 ), // (S084) : (HID(USBCode)"KEY_QUOTE");
-	/* 111 */ Define_TM( 84, 78 ), // (S084) : (HID(USBCode)"KEY_RIGHT");
-	/* 112 */ Define_TM( 85, 40 ), // (S085) : (HID(USBCode)"KEY_ENTER");
-	/* 113 */ Define_TM( 86, 13 ), // (S086) : (HID(USBCode)"KEY_J");
-	/* 114 */ Define_TM( 86, 83 ), // (S086) : (HID(USBCode)"KEYPAD_SLASH");
-	/* 115 */ Define_TM( 87, 56 ), // (S087) : (HID(USBCode)"KEY_CAPS_LOCK");
-	/* 116 */ Define_TM( 88, 7 ), // (S088) : (HID(USBCode)"KEY_D");
-	/* 117 */ Define_TM( 88, 1 ), // (S088) : (HID(ConsCode)"CONSUMER_MUTE");
-	/* 118 */ Define_TM( 89, 10 ), // (S089) : (HID(USBCode)"KEY_G");
-	/* 119 */ Define_TM( 90, 91 ), // (S090) : (HID(USBCode)"KEYPAD_5");
-	/* 120 */ Define_TM( 91, 106 ), // (S092) : (layerLatch(1));
-	/* 121 */ Define_TM( 92, 101 ), // (S093) : (HID(USBCode)"KEY_LGUI");
-	/* 122 */ Define_TM( 93, 38 ), // (S094) : (HID(USBCode)"KEY_9");
-	/* 123 */ Define_TM( 93, 65 ), // (S094) : (HID(USBCode)"KEY_F9");
-	/* 124 */ Define_TM( 94, 108 ), // (S095) : (layerShift(6));
-	/* 125 */ Define_TM( 95, 104 ), // (S096) : (HID(USBCode)"KEY_RALT");
-	/* 126 */ Define_TM( 96, 30 ), // (S097) : (HID(USBCode)"KEY_1");
-	/* 127 */ Define_TM( 96, 57 ), // (S097) : (HID(USBCode)"KEY_F1");
-	/* 128 */ Define_TM( 97, 97 ), // (S098) : (HID(USBCode)"KEYPAD_PERIOD");
-	/* 129 */ Define_TM( 98, 108 ), // (S099) : (layerShift(6));
-	/* 130 */ Define_TM( 99, 33 ), // (S100) : (HID(USBCode)"KEY_4");
-	/* 131 */ Define_TM( 99, 60 ), // (S100) : (HID(USBCode)"KEY_F4");
-	/* 132 */ Define_TM( 100, 44 ), // (S101) : (HID(USBCode)"KEY_SPACE");
-	/* 133 */ Define_TM( 101, 107 ), // (S102) : (layerShift(5));
-	/* 134 */ Define_TM( 102, 98 ), // (S103) : (HID(USBCode)"KEY_LCTRL");
-	/* 135 */ Define_TM( 103, 37 ), // (S104) : (HID(USBCode)"KEY_8");
-	/* 136 */ Define_TM( 104, 102 ), // (S105) : (HID(USBCode)"KEY_RCTRL");
-	/* 137 */ Define_TM( 105, 100 ), // (S106) : (HID(USBCode)"KEY_LALT");
-	/* 138 */ Define_TM( 106, 32 ), // (S107) : (HID(USBCode)"KEY_3");
-	/* 139 */ Define_TM( 106, 59 ), // (S107) : (HID(USBCode)"KEY_F3");
-	/* 140 */ Define_TM( 107, 96 ), // (S108) : (HID(USBCode)"KEYPAD_0");
-	/* 141 */ Define_TM( 108, 34 ), // (S109) : (HID(USBCode)"KEY_5");
-	/* 142 */ Define_TM( 108, 61 ), // (S109) : (HID(USBCode)"KEY_F5");
-	/* 143 */ Define_TM( 109, 35 ), // (S110) : (HID(USBCode)"KEY_6");
-	/* 144 */ Define_TM( 110, 36 ), // (S111) : (HID(USBCode)"KEY_7");
-	/* 145 */ Define_TM( 110, 63 ), // (S111) : (HID(USBCode)"KEY_F7");
+	/* 0 */ Define_TM( 0, 42 ), // (S000) : (HID(USBCode)"KEY_ESC");
+	/* 1 */ Define_TM( 1, 22 ), // (S001) : (HID(USBCode)"KEY_R");
+	/* 2 */ Define_TM( 2, 27 ), // (S002) : (HID(USBCode)"KEY_W");
+	/* 3 */ Define_TM( 2, 106 ), // (S002) : (flashMode());
+	/* 4 */ Define_TM( 3, 21 ), // (S003) : (HID(USBCode)"KEY_Q");
+	/* 5 */ Define_TM( 4, 29 ), // (S004) : (HID(USBCode)"KEY_Y");
+	/* 6 */ Define_TM( 5, 49 ), // (S005) : (HID(USBCode)"KEY_RIGHT_BRACKET");
+	/* 7 */ Define_TM( 6, 20 ), // (S006) : (HID(USBCode)"KEY_P");
+	/* 8 */ Define_TM( 6, 72 ), // (S006) : (HID(USBCode)"KEY_PAUSE");
+	/* 9 */ Define_TM( 7, 13 ), // (S007) : (HID(USBCode)"KEY_I");
+	/* 10 */ Define_TM( 7, 70 ), // (S007) : (HID(USBCode)"KEY_PRINTSCREEN");
+	/* 11 */ Define_TM( 8, 96 ), // (S008) : (HID(USBCode)"KEYPAD_9");
+	/* 12 */ Define_TM( 9, 94 ), // (S009) : (HID(USBCode)"KEYPAD_7");
+	/* 13 */ Define_TM( 10, 87 ), // (S010) : (HID(USBCode)"KEYPAD_PLUS");
+	/* 14 */ Define_TM( 11, 19 ), // (S011) : (HID(USBCode)"KEY_O");
+	/* 15 */ Define_TM( 11, 71 ), // (S011) : (HID(USBCode)"KEY_SCROLL_LOCK");
+	/* 16 */ Define_TM( 12, 48 ), // (S012) : (HID(USBCode)"KEY_LEFT_BRACKET");
+	/* 17 */ Define_TM( 12, 82 ), // (S012) : (HID(USBCode)"KEY_UP");
+	/* 18 */ Define_TM( 13, 50 ), // (S013) : (HID(USBCode)"KEY_BACKSLASH");
+	/* 19 */ Define_TM( 13, 73 ), // (S013) : (HID(USBCode)"KEY_INSERT");
+	/* 20 */ Define_TM( 14, 25 ), // (S014) : (HID(USBCode)"KEY_U");
+	/* 21 */ Define_TM( 15, 44 ), // (S015) : (HID(USBCode)"KEY_TAB");
+	/* 22 */ Define_TM( 15, 57 ), // (S015) : (HID(USBCode)"KEY_CAPS_LOCK");
+	/* 23 */ Define_TM( 16, 9 ), // (S016) : (HID(USBCode)"KEY_E");
+	/* 24 */ Define_TM( 17, 24 ), // (S017) : (HID(USBCode)"KEY_T");
+	/* 25 */ Define_TM( 18, 95 ), // (S018) : (HID(USBCode)"KEYPAD_8");
+	/* 26 */ Define_TM( 19, 7 ), // (S019) : (HID(USBCode)"KEY_C");
+	/* 27 */ Define_TM( 20, 30 ), // (S020) : (HID(USBCode)"KEY_Z");
+	/* 28 */ Define_TM( 21, 25 ), // (S021) : (HID(USBCode)"KEY_U");
+	/* 29 */ Define_TM( 22, 6 ), // (S022) : (HID(USBCode)"KEY_B");
+	/* 30 */ Define_TM( 23, 40 ), // (S023) : (HID(USBCode)"KEY_0");
+	/* 31 */ Define_TM( 23, 67 ), // (S023) : (HID(USBCode)"KEY_F10");
+	/* 32 */ Define_TM( 24, 55 ), // (S024) : (HID(USBCode)"KEY_PERIOD");
+	/* 33 */ Define_TM( 24, 78 ), // (S024) : (HID(USBCode)"KEY_PAGE_DOWN");
+	/* 34 */ Define_TM( 25, 17 ), // (S025) : (HID(USBCode)"KEY_M");
+	/* 35 */ Define_TM( 25, 86 ), // (S025) : (HID(USBCode)"KEYPAD_MINUS");
+	/* 36 */ Define_TM( 26, 90 ), // (S026) : (HID(USBCode)"KEYPAD_3");
+	/* 37 */ Define_TM( 27, 88 ), // (S027) : (HID(USBCode)"KEYPAD_1");
+	/* 38 */ Define_TM( 28, 41 ), // (S028) : (HID(USBCode)"KEY_ENTER");
+	/* 39 */ Define_TM( 29, 54 ), // (S029) : (HID(USBCode)"KEY_COMMA");
+	/* 40 */ Define_TM( 29, 77 ), // (S029) : (HID(USBCode)"KEY_END");
+	/* 41 */ Define_TM( 30, 56 ), // (S030) : (HID(USBCode)"KEY_SLASH");
+	/* 42 */ Define_TM( 30, 81 ), // (S030) : (HID(USBCode)"KEY_DOWN");
+	/* 43 */ Define_TM( 31, 104 ), // (S031) : (HID(USBCode)"KEY_RSHIFT");
+	/* 44 */ Define_TM( 32, 18 ), // (S032) : (HID(USBCode)"KEY_N");
+	/* 45 */ Define_TM( 32, 87 ), // (S032) : (HID(USBCode)"KEYPAD_PLUS");
+	/* 46 */ Define_TM( 33, 100 ), // (S033) : (HID(USBCode)"KEY_LSHIFT");
+	/* 47 */ Define_TM( 34, 28 ), // (S034) : (HID(USBCode)"KEY_X");
+	/* 48 */ Define_TM( 35, 26 ), // (S035) : (HID(USBCode)"KEY_V");
+	/* 49 */ Define_TM( 36, 89 ), // (S036) : (HID(USBCode)"KEYPAD_2");
+	/* 50 */ Define_TM( 37, 60 ), // (S037) : (HID(USBCode)"KEY_F3");
+	/* 51 */ Define_TM( 38, 58 ), // (S038) : (HID(USBCode)"KEY_F1");
+	/* 52 */ Define_TM( 39, 52 ), // (S039) : (HID(USBCode)"KEY_QUOTE");
+	/* 53 */ Define_TM( 39, 79 ), // (S039) : (HID(USBCode)"KEY_RIGHT");
+	/* 54 */ Define_TM( 40, 62 ), // (S040) : (HID(USBCode)"KEY_F5");
+	/* 55 */ Define_TM( 41, 68 ), // (S041) : (HID(USBCode)"KEY_F11");
+	/* 56 */ Define_TM( 42, 66 ), // (S042) : (HID(USBCode)"KEY_F9");
+	/* 57 */ Define_TM( 43, 64 ), // (S043) : (HID(USBCode)"KEY_F7");
+	/* 58 */ Define_TM( 44, 4 ), // (S044) : (HID(ConsCode)"CONSUMER_VOLUME_DOWN");
+	/* 59 */ Define_TM( 45, 1 ), // (S045) : (HID(ConsCode)"CONSUMER_PAUSE_PLAY");
+	/* 60 */ Define_TM( 46, 3 ), // (S046) : (HID(ConsCode)"CONSUMER_VOLUME_UP");
+	/* 61 */ Define_TM( 47, 65 ), // (S047) : (HID(USBCode)"KEY_F8");
+	/* 62 */ Define_TM( 48, 67 ), // (S048) : (HID(USBCode)"KEY_F10");
+	/* 63 */ Define_TM( 49, 69 ), // (S049) : (HID(USBCode)"KEY_F12");
+	/* 64 */ Define_TM( 50, 63 ), // (S050) : (HID(USBCode)"KEY_F6");
+	/* 65 */ Define_TM( 51, 42 ), // (S051) : (HID(USBCode)"KEY_ESC");
+	/* 66 */ Define_TM( 52, 59 ), // (S052) : (HID(USBCode)"KEY_F2");
+	/* 67 */ Define_TM( 53, 61 ), // (S053) : (HID(USBCode)"KEY_F4");
+	/* 68 */ Define_TM( 54, 2 ), // (S054) : (HID(ConsCode)"CONSUMER_MUTE");
+	/* 69 */ Define_TM( 55, 34 ), // (S055) : (HID(USBCode)"KEY_4");
+	/* 70 */ Define_TM( 55, 61 ), // (S055) : (HID(USBCode)"KEY_F4");
+	/* 71 */ Define_TM( 56, 32 ), // (S056) : (HID(USBCode)"KEY_2");
+	/* 72 */ Define_TM( 56, 59 ), // (S056) : (HID(USBCode)"KEY_F2");
+	/* 73 */ Define_TM( 57, 31 ), // (S057) : (HID(USBCode)"KEY_1");
+	/* 74 */ Define_TM( 58, 36 ), // (S058) : (HID(USBCode)"KEY_6");
+	/* 75 */ Define_TM( 58, 63 ), // (S058) : (HID(USBCode)"KEY_F6");
+	/* 76 */ Define_TM( 59, 47 ), // (S059) : (HID(USBCode)"KEY_EQUAL");
+	/* 77 */ Define_TM( 59, 69 ), // (S059) : (HID(USBCode)"KEY_F12");
+	/* 78 */ Define_TM( 60, 40 ), // (S060) : (HID(USBCode)"KEY_0");
+	/* 79 */ Define_TM( 61, 38 ), // (S061) : (HID(USBCode)"KEY_8");
+	/* 80 */ Define_TM( 62, 85 ), // (S062) : (HID(USBCode)"KEYPAD_ASTERISK");
+	/* 81 */ Define_TM( 63, 83 ), // (S063) : (HID(USBCode)"KEY_NUM_LOCK");
+	/* 82 */ Define_TM( 64, 86 ), // (S064) : (HID(USBCode)"KEYPAD_MINUS");
+	/* 83 */ Define_TM( 65, 39 ), // (S065) : (HID(USBCode)"KEY_9");
+	/* 84 */ Define_TM( 65, 66 ), // (S065) : (HID(USBCode)"KEY_F9");
+	/* 85 */ Define_TM( 66, 46 ), // (S066) : (HID(USBCode)"KEY_MINUS");
+	/* 86 */ Define_TM( 66, 68 ), // (S066) : (HID(USBCode)"KEY_F11");
+	/* 87 */ Define_TM( 67, 43 ), // (S067) : (HID(USBCode)"KEY_BACKSPACE");
+	/* 88 */ Define_TM( 68, 37 ), // (S068) : (HID(USBCode)"KEY_7");
+	/* 89 */ Define_TM( 69, 53 ), // (S069) : (HID(USBCode)"KEY_BACKTICK");
+	/* 90 */ Define_TM( 69, 76 ), // (S069) : (HID(USBCode)"KEY_DELETE");
+	/* 91 */ Define_TM( 70, 33 ), // (S070) : (HID(USBCode)"KEY_3");
+	/* 92 */ Define_TM( 71, 35 ), // (S071) : (HID(USBCode)"KEY_5");
+	/* 93 */ Define_TM( 72, 84 ), // (S072) : (HID(USBCode)"KEYPAD_SLASH");
+	/* 94 */ Define_TM( 73, 10 ), // (S073) : (HID(USBCode)"KEY_F");
+	/* 95 */ Define_TM( 73, 0 ), // (S073) : (HID(ConsCode)"CONSUMER_EJECT");
+	/* 96 */ Define_TM( 74, 23 ), // (S074) : (HID(USBCode)"KEY_S");
+	/* 97 */ Define_TM( 74, 3 ), // (S074) : (HID(ConsCode)"CONSUMER_VOLUME_UP");
+	/* 98 */ Define_TM( 75, 5 ), // (S075) : (HID(USBCode)"KEY_A");
+	/* 99 */ Define_TM( 75, 4 ), // (S075) : (HID(ConsCode)"CONSUMER_VOLUME_DOWN");
+	/* 100 */ Define_TM( 76, 12 ), // (S076) : (HID(USBCode)"KEY_H");
+	/* 101 */ Define_TM( 76, 85 ), // (S076) : (HID(USBCode)"KEYPAD_ASTERISK");
+	/* 102 */ Define_TM( 77, 57 ), // (S077) : (HID(USBCode)"KEY_CAPS_LOCK");
+	/* 103 */ Define_TM( 78, 51 ), // (S078) : (HID(USBCode)"KEY_SEMICOLON");
+	/* 104 */ Define_TM( 78, 80 ), // (S078) : (HID(USBCode)"KEY_LEFT");
+	/* 105 */ Define_TM( 79, 15 ), // (S079) : (HID(USBCode)"KEY_K");
+	/* 106 */ Define_TM( 79, 74 ), // (S079) : (HID(USBCode)"KEY_HOME");
+	/* 107 */ Define_TM( 80, 93 ), // (S080) : (HID(USBCode)"KEYPAD_6");
+	/* 108 */ Define_TM( 81, 91 ), // (S081) : (HID(USBCode)"KEYPAD_4");
+	/* 109 */ Define_TM( 82, 31 ), // (S082) : (HID(USBCode)"KEY_1");
+	/* 110 */ Define_TM( 82, 58 ), // (S082) : (HID(USBCode)"KEY_F1");
+	/* 111 */ Define_TM( 83, 16 ), // (S083) : (HID(USBCode)"KEY_L");
+	/* 112 */ Define_TM( 83, 75 ), // (S083) : (HID(USBCode)"KEY_PAGE_UP");
+	/* 113 */ Define_TM( 84, 52 ), // (S084) : (HID(USBCode)"KEY_QUOTE");
+	/* 114 */ Define_TM( 85, 41 ), // (S085) : (HID(USBCode)"KEY_ENTER");
+	/* 115 */ Define_TM( 86, 14 ), // (S086) : (HID(USBCode)"KEY_J");
+	/* 116 */ Define_TM( 86, 84 ), // (S086) : (HID(USBCode)"KEYPAD_SLASH");
+	/* 117 */ Define_TM( 87, 57 ), // (S087) : (HID(USBCode)"KEY_CAPS_LOCK");
+	/* 118 */ Define_TM( 88, 8 ), // (S088) : (HID(USBCode)"KEY_D");
+	/* 119 */ Define_TM( 88, 2 ), // (S088) : (HID(ConsCode)"CONSUMER_MUTE");
+	/* 120 */ Define_TM( 89, 11 ), // (S089) : (HID(USBCode)"KEY_G");
+	/* 121 */ Define_TM( 90, 92 ), // (S090) : (HID(USBCode)"KEYPAD_5");
+	/* 122 */ Define_TM( 91, 107 ), // (S092) : (layerLatch(1));
+	/* 123 */ Define_TM( 92, 102 ), // (S093) : (HID(USBCode)"KEY_LGUI");
+	/* 124 */ Define_TM( 93, 39 ), // (S094) : (HID(USBCode)"KEY_9");
+	/* 125 */ Define_TM( 94, 109 ), // (S095) : (layerShift(6));
+	/* 126 */ Define_TM( 95, 105 ), // (S096) : (HID(USBCode)"KEY_RALT");
+	/* 127 */ Define_TM( 96, 31 ), // (S097) : (HID(USBCode)"KEY_1");
+	/* 128 */ Define_TM( 97, 98 ), // (S098) : (HID(USBCode)"KEYPAD_PERIOD");
+	/* 129 */ Define_TM( 98, 109 ), // (S099) : (layerShift(6));
+	/* 130 */ Define_TM( 99, 34 ), // (S100) : (HID(USBCode)"KEY_4");
+	/* 131 */ Define_TM( 100, 45 ), // (S101) : (HID(USBCode)"KEY_SPACE");
+	/* 132 */ Define_TM( 101, 108 ), // (S102) : (layerShift(5));
+	/* 133 */ Define_TM( 102, 103 ), // (S103) : (HID(USBCode)"KEY_RCTRL");
+	/* 134 */ Define_TM( 103, 38 ), // (S104) : (HID(USBCode)"KEY_8");
+	/* 135 */ Define_TM( 103, 65 ), // (S104) : (HID(USBCode)"KEY_F8");
+	/* 136 */ Define_TM( 104, 99 ), // (S105) : (HID(USBCode)"KEY_LCTRL");
+	/* 137 */ Define_TM( 105, 101 ), // (S106) : (HID(USBCode)"KEY_LALT");
+	/* 138 */ Define_TM( 106, 33 ), // (S107) : (HID(USBCode)"KEY_3");
+	/* 139 */ Define_TM( 106, 60 ), // (S107) : (HID(USBCode)"KEY_F3");
+	/* 140 */ Define_TM( 107, 97 ), // (S108) : (HID(USBCode)"KEYPAD_0");
+	/* 141 */ Define_TM( 108, 35 ), // (S109) : (HID(USBCode)"KEY_5");
+	/* 142 */ Define_TM( 108, 62 ), // (S109) : (HID(USBCode)"KEY_F5");
+	/* 143 */ Define_TM( 109, 36 ), // (S110) : (HID(USBCode)"KEY_6");
+	/* 144 */ Define_TM( 110, 37 ), // (S111) : (HID(USBCode)"KEY_7");
+	/* 145 */ Define_TM( 110, 64 ), // (S111) : (HID(USBCode)"KEY_F7");
 };
 
 
@@ -693,87 +695,87 @@ Define_TL( default, 0x14 ) = { 1, 27 };
 Define_TL( default, 0x15 ) = { 1, 28 };
 Define_TL( default, 0x16 ) = { 1, 29 };
 Define_TL( default, 0x17 ) = { 1, 30 };
-Define_TL( default, 0x18 ) = { 1, 31 };
-Define_TL( default, 0x19 ) = { 1, 33 };
-Define_TL( default, 0x1A ) = { 1, 35 };
-Define_TL( default, 0x1B ) = { 1, 36 };
-Define_TL( default, 0x1C ) = { 1, 37 };
-Define_TL( default, 0x1D ) = { 1, 38 };
-Define_TL( default, 0x1E ) = { 1, 40 };
-Define_TL( default, 0x1F ) = { 1, 42 };
-Define_TL( default, 0x20 ) = { 1, 43 };
-Define_TL( default, 0x21 ) = { 1, 45 };
-Define_TL( default, 0x22 ) = { 1, 46 };
-Define_TL( default, 0x23 ) = { 1, 47 };
-Define_TL( default, 0x24 ) = { 1, 48 };
-Define_TL( default, 0x25 ) = { 1, 49 };
-Define_TL( default, 0x26 ) = { 1, 50 };
-Define_TL( default, 0x27 ) = { 1, 51 };
-Define_TL( default, 0x28 ) = { 1, 52 };
-Define_TL( default, 0x29 ) = { 1, 53 };
-Define_TL( default, 0x2A ) = { 1, 54 };
-Define_TL( default, 0x2B ) = { 1, 55 };
-Define_TL( default, 0x2C ) = { 1, 56 };
-Define_TL( default, 0x2D ) = { 1, 57 };
-Define_TL( default, 0x2E ) = { 1, 58 };
-Define_TL( default, 0x2F ) = { 1, 59 };
-Define_TL( default, 0x30 ) = { 1, 60 };
-Define_TL( default, 0x31 ) = { 1, 61 };
-Define_TL( default, 0x32 ) = { 1, 62 };
-Define_TL( default, 0x33 ) = { 1, 63 };
-Define_TL( default, 0x34 ) = { 1, 64 };
-Define_TL( default, 0x35 ) = { 1, 65 };
-Define_TL( default, 0x36 ) = { 1, 66 };
-Define_TL( default, 0x37 ) = { 1, 67 };
-Define_TL( default, 0x38 ) = { 1, 68 };
-Define_TL( default, 0x39 ) = { 1, 70 };
-Define_TL( default, 0x3A ) = { 1, 71 };
-Define_TL( default, 0x3B ) = { 1, 73 };
-Define_TL( default, 0x3C ) = { 1, 75 };
-Define_TL( default, 0x3D ) = { 1, 77 };
-Define_TL( default, 0x3E ) = { 1, 79 };
-Define_TL( default, 0x3F ) = { 1, 80 };
-Define_TL( default, 0x40 ) = { 1, 81 };
-Define_TL( default, 0x41 ) = { 1, 82 };
-Define_TL( default, 0x42 ) = { 1, 83 };
-Define_TL( default, 0x43 ) = { 1, 85 };
-Define_TL( default, 0x44 ) = { 1, 86 };
-Define_TL( default, 0x45 ) = { 1, 87 };
-Define_TL( default, 0x46 ) = { 1, 89 };
-Define_TL( default, 0x47 ) = { 1, 90 };
-Define_TL( default, 0x48 ) = { 1, 91 };
-Define_TL( default, 0x49 ) = { 1, 92 };
-Define_TL( default, 0x4A ) = { 1, 94 };
-Define_TL( default, 0x4B ) = { 1, 96 };
-Define_TL( default, 0x4C ) = { 1, 98 };
-Define_TL( default, 0x4D ) = { 1, 100 };
-Define_TL( default, 0x4E ) = { 1, 101 };
-Define_TL( default, 0x4F ) = { 1, 103 };
-Define_TL( default, 0x50 ) = { 1, 105 };
-Define_TL( default, 0x51 ) = { 1, 106 };
-Define_TL( default, 0x52 ) = { 1, 107 };
-Define_TL( default, 0x53 ) = { 1, 108 };
-Define_TL( default, 0x54 ) = { 1, 110 };
-Define_TL( default, 0x55 ) = { 1, 112 };
-Define_TL( default, 0x56 ) = { 1, 113 };
-Define_TL( default, 0x57 ) = { 1, 115 };
-Define_TL( default, 0x58 ) = { 1, 116 };
-Define_TL( default, 0x59 ) = { 1, 118 };
-Define_TL( default, 0x5A ) = { 1, 119 };
+Define_TL( default, 0x18 ) = { 1, 32 };
+Define_TL( default, 0x19 ) = { 1, 34 };
+Define_TL( default, 0x1A ) = { 1, 36 };
+Define_TL( default, 0x1B ) = { 1, 37 };
+Define_TL( default, 0x1C ) = { 1, 38 };
+Define_TL( default, 0x1D ) = { 1, 39 };
+Define_TL( default, 0x1E ) = { 1, 41 };
+Define_TL( default, 0x1F ) = { 1, 43 };
+Define_TL( default, 0x20 ) = { 1, 44 };
+Define_TL( default, 0x21 ) = { 1, 46 };
+Define_TL( default, 0x22 ) = { 1, 47 };
+Define_TL( default, 0x23 ) = { 1, 48 };
+Define_TL( default, 0x24 ) = { 1, 49 };
+Define_TL( default, 0x25 ) = { 1, 50 };
+Define_TL( default, 0x26 ) = { 1, 51 };
+Define_TL( default, 0x27 ) = { 1, 52 };
+Define_TL( default, 0x28 ) = { 1, 54 };
+Define_TL( default, 0x29 ) = { 1, 55 };
+Define_TL( default, 0x2A ) = { 1, 56 };
+Define_TL( default, 0x2B ) = { 1, 57 };
+Define_TL( default, 0x2C ) = { 1, 58 };
+Define_TL( default, 0x2D ) = { 1, 59 };
+Define_TL( default, 0x2E ) = { 1, 60 };
+Define_TL( default, 0x2F ) = { 1, 61 };
+Define_TL( default, 0x30 ) = { 1, 62 };
+Define_TL( default, 0x31 ) = { 1, 63 };
+Define_TL( default, 0x32 ) = { 1, 64 };
+Define_TL( default, 0x33 ) = { 1, 65 };
+Define_TL( default, 0x34 ) = { 1, 66 };
+Define_TL( default, 0x35 ) = { 1, 67 };
+Define_TL( default, 0x36 ) = { 1, 68 };
+Define_TL( default, 0x37 ) = { 1, 69 };
+Define_TL( default, 0x38 ) = { 1, 71 };
+Define_TL( default, 0x39 ) = { 1, 73 };
+Define_TL( default, 0x3A ) = { 1, 74 };
+Define_TL( default, 0x3B ) = { 1, 76 };
+Define_TL( default, 0x3C ) = { 1, 78 };
+Define_TL( default, 0x3D ) = { 1, 79 };
+Define_TL( default, 0x3E ) = { 1, 80 };
+Define_TL( default, 0x3F ) = { 1, 81 };
+Define_TL( default, 0x40 ) = { 1, 82 };
+Define_TL( default, 0x41 ) = { 1, 83 };
+Define_TL( default, 0x42 ) = { 1, 85 };
+Define_TL( default, 0x43 ) = { 1, 87 };
+Define_TL( default, 0x44 ) = { 1, 88 };
+Define_TL( default, 0x45 ) = { 1, 89 };
+Define_TL( default, 0x46 ) = { 1, 91 };
+Define_TL( default, 0x47 ) = { 1, 92 };
+Define_TL( default, 0x48 ) = { 1, 93 };
+Define_TL( default, 0x49 ) = { 1, 94 };
+Define_TL( default, 0x4A ) = { 1, 96 };
+Define_TL( default, 0x4B ) = { 1, 98 };
+Define_TL( default, 0x4C ) = { 1, 100 };
+Define_TL( default, 0x4D ) = { 1, 102 };
+Define_TL( default, 0x4E ) = { 1, 103 };
+Define_TL( default, 0x4F ) = { 1, 105 };
+Define_TL( default, 0x50 ) = { 1, 107 };
+Define_TL( default, 0x51 ) = { 1, 108 };
+Define_TL( default, 0x52 ) = { 1, 109 };
+Define_TL( default, 0x53 ) = { 1, 111 };
+Define_TL( default, 0x54 ) = { 1, 113 };
+Define_TL( default, 0x55 ) = { 1, 114 };
+Define_TL( default, 0x56 ) = { 1, 115 };
+Define_TL( default, 0x57 ) = { 1, 117 };
+Define_TL( default, 0x58 ) = { 1, 118 };
+Define_TL( default, 0x59 ) = { 1, 120 };
+Define_TL( default, 0x5A ) = { 1, 121 };
 Define_TL( default, 0x5B ) = { 0 };
-Define_TL( default, 0x5C ) = { 1, 120 };
-Define_TL( default, 0x5D ) = { 1, 121 };
-Define_TL( default, 0x5E ) = { 1, 122 };
-Define_TL( default, 0x5F ) = { 1, 124 };
-Define_TL( default, 0x60 ) = { 1, 125 };
-Define_TL( default, 0x61 ) = { 1, 126 };
+Define_TL( default, 0x5C ) = { 1, 122 };
+Define_TL( default, 0x5D ) = { 1, 123 };
+Define_TL( default, 0x5E ) = { 1, 124 };
+Define_TL( default, 0x5F ) = { 1, 125 };
+Define_TL( default, 0x60 ) = { 1, 126 };
+Define_TL( default, 0x61 ) = { 1, 127 };
 Define_TL( default, 0x62 ) = { 1, 128 };
 Define_TL( default, 0x63 ) = { 1, 129 };
 Define_TL( default, 0x64 ) = { 1, 130 };
-Define_TL( default, 0x65 ) = { 1, 132 };
-Define_TL( default, 0x66 ) = { 1, 133 };
-Define_TL( default, 0x67 ) = { 1, 134 };
-Define_TL( default, 0x68 ) = { 1, 135 };
+Define_TL( default, 0x65 ) = { 1, 131 };
+Define_TL( default, 0x66 ) = { 1, 132 };
+Define_TL( default, 0x67 ) = { 1, 133 };
+Define_TL( default, 0x68 ) = { 1, 134 };
 Define_TL( default, 0x69 ) = { 1, 136 };
 Define_TL( default, 0x6A ) = { 1, 137 };
 Define_TL( default, 0x6B ) = { 1, 138 };
@@ -806,23 +808,23 @@ Define_TL( layer1, 0x11 ) = { 0 };
 Define_TL( layer1, 0x12 ) = { 0 };
 Define_TL( layer1, 0x13 ) = { 0 };
 Define_TL( layer1, 0x14 ) = { 0 };
-Define_TL( layer1, 0x15 ) = { 0 };
-Define_TL( layer1, 0x16 ) = { 1, 32 };
-Define_TL( layer1, 0x17 ) = { 1, 34 };
+Define_TL( layer1, 0x15 ) = { 1, 31 };
+Define_TL( layer1, 0x16 ) = { 1, 33 };
+Define_TL( layer1, 0x17 ) = { 1, 35 };
 Define_TL( layer1, 0x18 ) = { 0 };
 Define_TL( layer1, 0x19 ) = { 0 };
 Define_TL( layer1, 0x1A ) = { 0 };
-Define_TL( layer1, 0x1B ) = { 1, 39 };
-Define_TL( layer1, 0x1C ) = { 1, 41 };
+Define_TL( layer1, 0x1B ) = { 1, 40 };
+Define_TL( layer1, 0x1C ) = { 1, 42 };
 Define_TL( layer1, 0x1D ) = { 0 };
-Define_TL( layer1, 0x1E ) = { 1, 44 };
+Define_TL( layer1, 0x1E ) = { 1, 45 };
 Define_TL( layer1, 0x1F ) = { 0 };
 Define_TL( layer1, 0x20 ) = { 0 };
 Define_TL( layer1, 0x21 ) = { 0 };
 Define_TL( layer1, 0x22 ) = { 0 };
 Define_TL( layer1, 0x23 ) = { 0 };
 Define_TL( layer1, 0x24 ) = { 0 };
-Define_TL( layer1, 0x25 ) = { 0 };
+Define_TL( layer1, 0x25 ) = { 1, 53 };
 Define_TL( layer1, 0x26 ) = { 0 };
 Define_TL( layer1, 0x27 ) = { 0 };
 Define_TL( layer1, 0x28 ) = { 0 };
@@ -838,56 +840,56 @@ Define_TL( layer1, 0x31 ) = { 0 };
 Define_TL( layer1, 0x32 ) = { 0 };
 Define_TL( layer1, 0x33 ) = { 0 };
 Define_TL( layer1, 0x34 ) = { 0 };
-Define_TL( layer1, 0x35 ) = { 0 };
-Define_TL( layer1, 0x36 ) = { 1, 69 };
+Define_TL( layer1, 0x35 ) = { 1, 70 };
+Define_TL( layer1, 0x36 ) = { 1, 72 };
 Define_TL( layer1, 0x37 ) = { 0 };
-Define_TL( layer1, 0x38 ) = { 1, 72 };
-Define_TL( layer1, 0x39 ) = { 1, 74 };
-Define_TL( layer1, 0x3A ) = { 1, 76 };
-Define_TL( layer1, 0x3B ) = { 1, 78 };
+Define_TL( layer1, 0x38 ) = { 1, 75 };
+Define_TL( layer1, 0x39 ) = { 1, 77 };
+Define_TL( layer1, 0x3A ) = { 0 };
+Define_TL( layer1, 0x3B ) = { 0 };
 Define_TL( layer1, 0x3C ) = { 0 };
 Define_TL( layer1, 0x3D ) = { 0 };
 Define_TL( layer1, 0x3E ) = { 0 };
-Define_TL( layer1, 0x3F ) = { 0 };
-Define_TL( layer1, 0x40 ) = { 1, 84 };
+Define_TL( layer1, 0x3F ) = { 1, 84 };
+Define_TL( layer1, 0x40 ) = { 1, 86 };
 Define_TL( layer1, 0x41 ) = { 0 };
 Define_TL( layer1, 0x42 ) = { 0 };
-Define_TL( layer1, 0x43 ) = { 1, 88 };
+Define_TL( layer1, 0x43 ) = { 1, 90 };
 Define_TL( layer1, 0x44 ) = { 0 };
 Define_TL( layer1, 0x45 ) = { 0 };
 Define_TL( layer1, 0x46 ) = { 0 };
-Define_TL( layer1, 0x47 ) = { 1, 93 };
-Define_TL( layer1, 0x48 ) = { 1, 95 };
-Define_TL( layer1, 0x49 ) = { 1, 97 };
-Define_TL( layer1, 0x4A ) = { 1, 99 };
+Define_TL( layer1, 0x47 ) = { 1, 95 };
+Define_TL( layer1, 0x48 ) = { 1, 97 };
+Define_TL( layer1, 0x49 ) = { 1, 99 };
+Define_TL( layer1, 0x4A ) = { 1, 101 };
 Define_TL( layer1, 0x4B ) = { 0 };
-Define_TL( layer1, 0x4C ) = { 1, 102 };
-Define_TL( layer1, 0x4D ) = { 1, 104 };
+Define_TL( layer1, 0x4C ) = { 1, 104 };
+Define_TL( layer1, 0x4D ) = { 1, 106 };
 Define_TL( layer1, 0x4E ) = { 0 };
 Define_TL( layer1, 0x4F ) = { 0 };
-Define_TL( layer1, 0x50 ) = { 0 };
-Define_TL( layer1, 0x51 ) = { 1, 109 };
-Define_TL( layer1, 0x52 ) = { 1, 111 };
+Define_TL( layer1, 0x50 ) = { 1, 110 };
+Define_TL( layer1, 0x51 ) = { 1, 112 };
+Define_TL( layer1, 0x52 ) = { 0 };
 Define_TL( layer1, 0x53 ) = { 0 };
-Define_TL( layer1, 0x54 ) = { 1, 114 };
+Define_TL( layer1, 0x54 ) = { 1, 116 };
 Define_TL( layer1, 0x55 ) = { 0 };
-Define_TL( layer1, 0x56 ) = { 1, 117 };
+Define_TL( layer1, 0x56 ) = { 1, 119 };
 Define_TL( layer1, 0x57 ) = { 0 };
 Define_TL( layer1, 0x58 ) = { 0 };
 Define_TL( layer1, 0x59 ) = { 0 };
 Define_TL( layer1, 0x5A ) = { 0 };
 Define_TL( layer1, 0x5B ) = { 0 };
-Define_TL( layer1, 0x5C ) = { 1, 123 };
+Define_TL( layer1, 0x5C ) = { 0 };
 Define_TL( layer1, 0x5D ) = { 0 };
 Define_TL( layer1, 0x5E ) = { 0 };
-Define_TL( layer1, 0x5F ) = { 1, 127 };
+Define_TL( layer1, 0x5F ) = { 0 };
 Define_TL( layer1, 0x60 ) = { 0 };
 Define_TL( layer1, 0x61 ) = { 0 };
-Define_TL( layer1, 0x62 ) = { 1, 131 };
+Define_TL( layer1, 0x62 ) = { 0 };
 Define_TL( layer1, 0x63 ) = { 0 };
 Define_TL( layer1, 0x64 ) = { 0 };
 Define_TL( layer1, 0x65 ) = { 0 };
-Define_TL( layer1, 0x66 ) = { 0 };
+Define_TL( layer1, 0x66 ) = { 1, 135 };
 Define_TL( layer1, 0x67 ) = { 0 };
 Define_TL( layer1, 0x68 ) = { 0 };
 Define_TL( layer1, 0x69 ) = { 1, 139 };

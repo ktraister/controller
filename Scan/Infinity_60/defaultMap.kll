@@ -51,7 +51,7 @@ S0x29 : U"F11"; #kg
 S0x2A : U"F9";
 S0x2B : U"F7";
 S0x2C : CONS"VOLUMEDOWN"; #kg
-S0x2D : U"DELETE"; #kg
+S0x2D : CONS"PAUSEPLAY"; #kg
 S0x2E : CONS"VOLUMEUP"; #kg
 S0x2F : U"F8";
 S0x30 : U"F10";  #kg
@@ -108,9 +108,9 @@ S0x63 : U"Function6";
 S0x64 : U"4";
 S0x65 : U"Space";
 S0x66 : U"Function5";
-S0x67 : U"LCtrl";
+S0x67 : U"RCtrl";
 S0x68 : U"8";
-S0x69 : U"RCtrl";
+S0x69 : U"LCtrl";
 S0x6A : U"LAlt";
 S0x6B : U"3";
 S0x6C : U"P0";

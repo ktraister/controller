@@ -1259,13 +1259,13 @@
                 ]
             },
             ":0 S045": {
-                "kll": "S0x02d : U0x04c;",
+                "kll": "S0x02d : CONS0x0cd;",
                 "result": [
                     [
                         {
                             "schedule": [],
-                            "type": "USBCode",
-                            "uid": 76
+                            "type": "ConsCode",
+                            "uid": 205
                         }
                     ]
                 ],
@@ -2476,13 +2476,13 @@
                 ]
             },
             ":0 S103": {
-                "kll": "S0x067 : U0x0e0;",
+                "kll": "S0x067 : U0x0e4;",
                 "result": [
                     [
                         {
                             "schedule": [],
                             "type": "USBCode",
-                            "uid": 224
+                            "uid": 228
                         }
                     ]
                 ],
@@ -2518,13 +2518,13 @@
                 ]
             },
             ":0 S105": {
-                "kll": "S0x069 : U0x0e4;",
+                "kll": "S0x069 : U0x0e0;",
                 "result": [
                     [
                         {
                             "schedule": [],
                             "type": "USBCode",
-                            "uid": 228
+                            "uid": 224
                         }
                     ]
                 ],
@@ -2813,6 +2813,27 @@
                     ]
                 ]
             },
+            ":0 S023": {
+                "kll": "S0x017 : U0x043;",
+                "result": [
+                    [
+                        {
+                            "schedule": [],
+                            "type": "USBCode",
+                            "uid": 67
+                        }
+                    ]
+                ],
+                "trigger": [
+                    [
+                        {
+                            "schedule": [],
+                            "type": "ScanCode",
+                            "uid": 23
+                        }
+                    ]
+                ]
+            },
             ":0 S024": {
                 "kll": "S0x018 : U0x04e;",
                 "result": [
@@ -2918,6 +2939,48 @@
                     ]
                 ]
             },
+            ":0 S039": {
+                "kll": "S0x027 : U0x04f;",
+                "result": [
+                    [
+                        {
+                            "schedule": [],
+                            "type": "USBCode",
+                            "uid": 79
+                        }
+                    ]
+                ],
+                "trigger": [
+                    [
+                        {
+                            "schedule": [],
+                            "type": "ScanCode",
+                            "uid": 39
+                        }
+                    ]
+                ]
+            },
+            ":0 S055": {
+                "kll": "S0x037 : U0x03d;",
+                "result": [
+                    [
+                        {
+                            "schedule": [],
+                            "type": "USBCode",
+                            "uid": 61
+                        }
+                    ]
+                ],
+                "trigger": [
+                    [
+                        {
+                            "schedule": [],
+                            "type": "ScanCode",
+                            "uid": 55
+                        }
+                    ]
+                ]
+            },
             ":0 S056": {
                 "kll": "S0x038 : U0x03b;",
                 "result": [
@@ -2981,14 +3044,14 @@
                     ]
                 ]
             },
-            ":0 S060": {
-                "kll": "S0x03c : U0x043;",
+            ":0 S065": {
+                "kll": "S0x041 : U0x042;",
                 "result": [
                     [
                         {
                             "schedule": [],
                             "type": "USBCode",
-                            "uid": 67
+                            "uid": 66
                         }
                     ]
                 ],
@@ -2997,28 +3060,7 @@
                         {
                             "schedule": [],
                             "type": "ScanCode",
-                            "uid": 60
-                        }
-                    ]
-                ]
-            },
-            ":0 S061": {
-                "kll": "S0x03d : U0x041;",
-                "result": [
-                    [
-                        {
-                            "schedule": [],
-                            "type": "USBCode",
                             "uid": 65
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "schedule": [],
-                            "type": "ScanCode",
-                            "uid": 61
                         }
                     ]
                 ]
@@ -3191,6 +3233,27 @@
                     ]
                 ]
             },
+            ":0 S082": {
+                "kll": "S0x052 : U0x03a;",
+                "result": [
+                    [
+                        {
+                            "schedule": [],
+                            "type": "USBCode",
+                            "uid": 58
+                        }
+                    ]
+                ],
+                "trigger": [
+                    [
+                        {
+                            "schedule": [],
+                            "type": "ScanCode",
+                            "uid": 82
+                        }
+                    ]
+                ]
+            },
             ":0 S083": {
                 "kll": "S0x053 : U0x04b;",
                 "result": [
@@ -3208,27 +3271,6 @@
                             "schedule": [],
                             "type": "ScanCode",
                             "uid": 83
-                        }
-                    ]
-                ]
-            },
-            ":0 S084": {
-                "kll": "S0x054 : U0x04f;",
-                "result": [
-                    [
-                        {
-                            "schedule": [],
-                            "type": "USBCode",
-                            "uid": 79
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "schedule": [],
-                            "type": "ScanCode",
-                            "uid": 84
                         }
                     ]
                 ]
@@ -3275,14 +3317,14 @@
                     ]
                 ]
             },
-            ":0 S094": {
-                "kll": "S0x05e : U0x042;",
+            ":0 S104": {
+                "kll": "S0x068 : U0x041;",
                 "result": [
                     [
                         {
                             "schedule": [],
                             "type": "USBCode",
-                            "uid": 66
+                            "uid": 65
                         }
                     ]
                 ],
@@ -3291,49 +3333,7 @@
                         {
                             "schedule": [],
                             "type": "ScanCode",
-                            "uid": 94
-                        }
-                    ]
-                ]
-            },
-            ":0 S097": {
-                "kll": "S0x061 : U0x03a;",
-                "result": [
-                    [
-                        {
-                            "schedule": [],
-                            "type": "USBCode",
-                            "uid": 58
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "schedule": [],
-                            "type": "ScanCode",
-                            "uid": 97
-                        }
-                    ]
-                ]
-            },
-            ":0 S100": {
-                "kll": "S0x064 : U0x03d;",
-                "result": [
-                    [
-                        {
-                            "schedule": [],
-                            "type": "USBCode",
-                            "uid": 61
-                        }
-                    ]
-                ],
-                "trigger": [
-                    [
-                        {
-                            "schedule": [],
-                            "type": "ScanCode",
-                            "uid": 100
+                            "uid": 104
                         }
                     ]
                 ]

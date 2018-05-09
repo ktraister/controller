@@ -146,7 +146,7 @@ typedef enum CapabilityIndex {
 // -- Built-in Defines --
 #define CapabilitiesNum_KLL 17
 #define LayerNum_KLL 2
-#define ResultMacroNum_KLL 109
+#define ResultMacroNum_KLL 110
 #define TriggerMacroNum_KLL 146
 #define MaxScanCode_KLL 111
 #define AnimationNum_KLL 0
