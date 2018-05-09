@@ -48,8 +48,9 @@
 //  PTD1..7
 
 // Define Rows (Sense) and Columns (Strobes)
-GPIO_Pin Matrix_cols[] = { gpio(B,0), gpio(B,1), gpio(B,2), gpio(B,3), gpio(B,16), gpio(B,17), gpio(C,4), gpio(C,5), gpio(D,0) };
-GPIO_Pin Matrix_rows[] = { gpio(D,1), gpio(D,2), gpio(D,3), gpio(D,4), gpio(D,5), gpio(D,6), gpio(D,7) };
+GPIO_Pin Matrix_cols[] = { gpio(C,4), gpio(C,3), gpio(D,3), gpio(D,2), gpio(D,7), gpio(A,13), gpio(A,12), gpio(D,0), gpio(B,17), gpio(C,2), gpio(C,1), gpio(D,6), gpio(D,5), gpio(B,2), gpio(B,1), gpio(B,0), gpio(C,0), gpio(B,16) };
+//one for columns, one for rows
+GPIO_Pin Matrix_rows[] = { gpio(C,7), gpio(C,6), gpio(B,3), gpio(D,1), gpio(C,5), gpio(A,5) };
 
 // Define type of scan matrix
 Config Matrix_type = Config_Pulldown;
