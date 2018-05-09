@@ -135,7 +135,7 @@ set(  DebugModule "full"
 #| NOTE2: Layers are always based up the BaseMap (which should be an ANSI-like mapping)
 #| NOTE3: Compiler looks in kll/layouts and the build directory for layout files (precedence on build directory)
 
-set(  LayoutName ""
+set(  LayoutName "CB.mk1 Layout"
 	CACHE STRING "Layout Name for Keyboard, often unset. No functional purpose other than documentation."
 )
 

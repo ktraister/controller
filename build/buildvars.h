@@ -32,28 +32,28 @@
 #define _STR(x) _STR_HELPER(x)
 
 // You can change these to give your code its own name.
-#define STR_MANUFACTURER        L"Input Club"
-#define STR_PRODUCT             L"Keyboard - Infinity_60 PartialMap USB"
-#define STR_SERIAL              L"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX - mk20dx256"
+#define STR_MANUFACTURER        L"Celestial Being"
+#define STR_PRODUCT             L"Keyboard - CBmk.1 USB"
+#define STR_SERIAL              L"CB001 - mk20dx256"
 #define STR_CONFIG_NAME         L"xXXx"
 
 
 // Strings used in the CLI module
-#define CLI_Revision            "6175c6d10100b6012e999bcca8e6d7331a84e4ac"
-#define CLI_RevisionNumber      861
-#define CLI_RevisionNumberStr   "861"
+#define CLI_Revision            "3e8bfaeead986c8d7ad73d37bcc558bf9edec29b"
+#define CLI_RevisionNumber      862
+#define CLI_RevisionNumberStr   "862"
 #define CLI_Version             "0.4.9"
 #define CLI_VersionRevision     "2dd024f4a88ea3c53d1d3eac7e6dadcef3f04769"
 #define CLI_VersionRevNumber    723
 #define CLI_VersionRevNumberStr "723"
 #define CLI_Branch              "keithsbranch"
 #define CLI_ModifiedStatus      "Dirty"
-#define CLI_ModifiedFiles       "\r\n\tBootloader/CMakeLists.txt\r\n\tCMakeLists.txt\r\n\tScan/Infinity_60/matrix.h\r\n\tScan/Infinity_60/prototype.kll"
-#define CLI_RepoOrigin          "https://github.com/kiibohd/controller.git"
-#define CLI_CommitDate          "2018-04-30 23:38:51 -0700"
-#define CLI_CommitAuthor        "Jacob Alexander <haata@kiibohd.com>"
+#define CLI_ModifiedFiles       "\r\n\tCMakeLists.txt\r\n\tScan/Infinity_60/defaultMap.kll\r\n\tScan/Infinity_60/setup.cmake\r\n\tbuild/buildvars.h\r\n\tbuild/generatedKeymap.h\r\n\tbuild/generatedPixelmap.c\r\n\tbuild/kll.json\r\n\tbuild/kll_defs.h"
+#define CLI_RepoOrigin          "https://github.com/ktraister/controller"
+#define CLI_CommitDate          "2018-05-09 07:01:32 +0000"
+#define CLI_CommitAuthor        "Keith Traister <keith.traister@gmail.com>"
 #define CLI_Modules             "Scan(Infinity_60) Macro(PartialMap) Output(USB) Debug(full)"
-#define CLI_BuildDate           "2018-05-06 03:32:42 +0000"
+#define CLI_BuildDate           "2018-05-09 07:45:18 +0000"
 #define CLI_BuildOS             "'Arch Linux' n/a"
 #define CLI_BuildCompiler       "/usr/bin/arm-none-eabi-gcc 7.3.0"
 #define CLI_Arch                "arm"
@@ -69,5 +69,5 @@
 // match the INF file.
 #define VENDOR_ID               0x1C11
 #define PRODUCT_ID              0xB04D
-#define BCD_VERSION             861
+#define BCD_VERSION             862
 

@@ -10,7 +10,7 @@
 ###
 # Overrides
 #
-set ( MANUFACTURER "Input Club" PARENT_SCOPE )
+set ( MANUFACTURER "Celestial Being" PARENT_SCOPE )
 
 
 ###

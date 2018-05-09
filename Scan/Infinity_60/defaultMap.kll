@@ -1,5 +1,5 @@
-Name = MD1;
-Version = 0.2;
+Name = CB.mk1;
+Version = 1;
 Author = "HaaTa (Jacob Alexander) 2014";
 KLL = 0.3;
 
@@ -50,9 +50,9 @@ S0x28 : U"F5";
 S0x29 : U"F11"; #kg
 S0x2A : U"F9";
 S0x2B : U"F7";
-S0x2C : U"Function3"; #kg
-S0x2D : U"Function1"; #kg
-S0x2E : U"Function4"; #kg
+S0x2C : CONS"VOLUMEDOWN"; #kg
+S0x2D : U"DELETE"; #kg
+S0x2E : CONS"VOLUMEUP"; #kg
 S0x2F : U"F8";
 S0x30 : U"F10";  #kg
 S0x31 : U"F12";  #kg
@@ -60,7 +60,7 @@ S0x32 : U"F6";
 S0x33 : U"Esc";  #kg
 S0x34 : U"F2"; 
 S0x35 : U"F4";
-S0x36 : U"Function2"; #kg
+S0x36 : CONS"MUTE"; #kg
 S0x37 : U"4";
 S0x38 : U"2";
 S0x39 : U"1";
@@ -108,9 +108,9 @@ S0x63 : U"Function6";
 S0x64 : U"4";
 S0x65 : U"Space";
 S0x66 : U"Function5";
-S0x67 : U"Ctrl";
+S0x67 : U"LCtrl";
 S0x68 : U"8";
-S0x69 : U"Ctrl";
+S0x69 : U"RCtrl";
 S0x6A : U"LAlt";
 S0x6B : U"3";
 S0x6C : U"P0";
