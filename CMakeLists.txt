@@ -151,7 +151,8 @@ set(  DefaultMap "ic60/md1Overlay stdFuncMap"
 
 ##| ParitalMaps available on top of the BaseMap. See above for syntax on specifying multiple layers vs. layering
 ##| Can be set to ""
-set( PartialMaps "ic60/hhkbpro2"
+##set( PartialMaps "ic60/hhkbpro2"
+set( PartialMaps "layer2.kll"
 	CACHE STRING "KLL PartialMaps/Layer Definitions" )
 
 
