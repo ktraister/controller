@@ -1,16 +1,20 @@
-S0xA  : U"P+";
-S0x8  : U"P9";
-S0x9  : U"P7";
-S0x06 : U"P";   #kg  
-S0x12 : U"P8";
-S0x1A : U"D";
-S0x1B : U"A";
-S0x24 : U"S";  #kg
+S0xA  : U"PageUp";   #BIG BUTTON page up
+S0x8  : U"R";        #r for MWO
+S0x9  : U"P7";       #previous song
+S0x06 : U"P";     
+S0x12 : U"P8";       #next song
+S0x1A : U"Right";    #right arrow
+S0x1B : U"Left";     #left arrow  
+S0x24 : U"Down";     #down arrow
 S0x3E : U"P*";
 S0x40 : U"P-";
 S0x48 : U"P/";
-S0x50 : U"P6";
-S0x51 : U"P4";  
-S0x5A : U"W";
+S0x50 : U"F";        #f for MWO
+#page down
+#we're gonna best-guess this
+#S0x1C : U"PageDown";
+S0x55 : U"PageDown"; #page down
+S0x51 : U"Delete";   #delete 
+S0x5A : U"Up";       #up arrow
 S0x62 : U"P.";
 S0x6C : U"P0";
