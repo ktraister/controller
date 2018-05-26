@@ -104,8 +104,7 @@ S0x5F : U"Function6";
 S0x60 : U"RAlt";
 S0x61 : U"1";
 S0x62 : U"P.";
-S0x63 : U"Function7" 
-U"Function7" : layerLock(1);
+S0x63 : U"Function7";
 S0x64 : U"4";
 S0x65 : U"Space";
 S0x66 : U"Function5";

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 S0xA  : U"PageUp";   #BIG BUTTON page up
 S0x8  : U"R";        #r for MWO
 S0x9  : U"P7";       #previous song
@@ -6,6 +7,18 @@ S0x12 : U"P8";       #next song
 S0x1A : U"Right";    #right arrow
 S0x1B : U"Left";     #left arrow  
 S0x24 : U"Down";     #down arrow
+=======
+Name = "CB.mk1.l1";
+
+S0xA  : U"P+";
+S0x8  : U"P9";
+S0x9  : U"P7";
+S0x06 : U"P";   #kg  
+S0x12 : U"P8";
+S0x1A : U"D";
+S0x1B : U"A";
+S0x24 : U"S";  #kg
+>>>>>>> eb72824831390e08819b13edd2b1e4c2cc30fb47
 S0x3E : U"P*";
 S0x40 : U"P-";
 S0x48 : U"P/";
