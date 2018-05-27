@@ -58,8 +58,7 @@ CMakeCache.txt
 cmake_install.cmake
 compile_commands.json
 
-# External Repos #
-##################
+#external repo#
 kll
 
 # Build Directories #
