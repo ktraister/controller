@@ -20,9 +20,9 @@ set( CHIP
 #       "atmega32u4"       # Teensy   2.0 (avr) - Deprecated
 #       "at90usb1286"      # Teensy++ 2.0 (avr) - Deprecated
 #       "mk20dx128"        # Teensy   3.0 (arm)
-	"mk20dx128vlf5"    # McHCK       mk20dx128vlf5
+#	"mk20dx128vlf5"    # McHCK       mk20dx128vlf5
 #	"mk20dx128vlf5"    # Kiibohd-dfu mk20dx128vlh7
-#       "mk20dx256"        # Teensy   3.1,3.2 (arm)
+       "mk20dx256"        # Teensy   3.1,3.2 (arm)
 #       "mk20dx256vlh7"    # Kiibohd-dfu mk20dx256vlh7
 #       "mk22fx512avlh7"   # Kiibohd-dfu mk22fx512avlh7
 #       "mk64fx512"        # Teensy   3.5 (arm)
@@ -92,6 +92,7 @@ include( initialize )
 
 ##| Deals with acquiring the keypress information and turning it into a key index
 set(   ScanModule "Infinity_60"
+#set (ScanModule "mykeyboard"
 	CACHE STRING "Scan Module" )
 
 ##| Provides the mapping functions for DefaultMap and handles any macro processing before sending to the OutputModule
@@ -134,7 +135,7 @@ set(  DebugModule "full"
 #| NOTE2: Layers are always based up the BaseMap (which should be an ANSI-like mapping)
 #| NOTE3: Compiler looks in kll/layouts and the build directory for layout files (precedence on build directory)
 
-set(  LayoutName ""
+set(  LayoutName "CB.mk1 Layout"
 	CACHE STRING "Layout Name for Keyboard, often unset. No functional purpose other than documentation."
 )
 
@@ -146,12 +147,13 @@ set(     BaseMap "defaultMap"
 ##| Layer additonal .kll maps on the BaseMap, layers are in order from 1st to nth
 ##| Can be set to ""
 set(  DefaultMap "ic60/md1Overlay stdFuncMap"
-	CACHE STRING "KLL DefaultMap" )
+    CACHE STRING "KLL DefaultMap" )
 
 ##| ParitalMaps available on top of the BaseMap. See above for syntax on specifying multiple layers vs. layering
 ##| Can be set to ""
-set( PartialMaps "ic60/hhkbpro2"
-	CACHE STRING "KLL PartialMaps/Layer Definitions" )
+##set( PartialMaps "ic60/hhkbpro2"
+set( PartialMaps "layer2"
+    CACHE STRING "KLL PartialMaps/Layer Definitions" )
 
 
 
@@ -172,12 +174,12 @@ set( MAIN_SRCS
 project( kiibohd_controller C )
 
 #| Target Name (output name)
-set( TARGET kiibohd )
+set( TARGET CB1 )
 
 #| Manufacturer name
 #| - This can be overridden by a Scan Module setup.cmake -
 #| USB Descriptor iManufacturer string
-set( MANUFACTURER "Kiibohd" )
+set( MANUFACTURER "Celestial Being" )
 
 #| Flashing Station name
 #| This is a placeholder value, the flashing process will overwrite this value for you
